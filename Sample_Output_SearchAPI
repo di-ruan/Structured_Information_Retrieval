@@ -1,0 +1,44 @@
+{
+    "cost": 10,
+    "cursor": 20,
+    "hits": 2546,
+    "result": [
+        {
+            "mid": "/m/017nt",
+            "id":"/en/bill_gates",
+            "name":"Bill Gates",
+            "notable":{
+                "name":"Organization leader",
+                "id":"/business/board_member"
+            },
+            "lang":"en",
+            "score":816.259216
+        },
+        {
+            "mid": "/m/012mjr",
+            "id":"/en/bill_melinda_gates_foundation",
+            "name":"Bill & Melinda Gates Foundation",
+            "notable":{
+                "name":"Foundation",
+                "id":"/m/0339xs"
+            },
+            "lang":"en",
+            "score":390.698151
+        },
+        {
+            "mid":"mid": "/m/09q11d",
+            "id":"/en/bill_gates_house",
+            "name":"Bill Gates's house",
+            "notable":{
+                "name":"Building",
+                "id":"/architecture/building"
+            },
+            "lang":"en",
+            "score":297.354309
+        },
+
+
+        ...more entries here...
+    ],
+    "status": "200 OK"
+}

@@ -8,3 +8,5 @@
 #League	Name, Championship, Sport, Slogan, OfficialWebsite, Description, Teams
 #SportsTeam	Name, Description, Sport, Arena, Championships, Coaches(Name, Position, From, To), Founded, Leagues, \
 #              Locations, PlayersRoster(Name, Position, Number,From, To)
+
+entity_set = {}
