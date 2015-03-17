@@ -18,24 +18,22 @@ interest = {'Person': ['Name', 'Birthday'],
             'League': ['Name', 'Championship'],
             'SportsTeam': ['Name', 'Description']}
 
-
+# the input is the result from the Search API
 def build_infobox(results):
-    mids = []
     if results is not None:
         for result in results['result']:
-            mids.append(result['mid'])
-    for mid in mids:
-        count = 0
-        res_list = []
-        topic = Search.get_search_result(mid)
-        for p in topic['property']:
-            entity_type = get_prefix(p)
-            if entity_types[entity_type] is not None:
-                count += 1
-                for value in topic['property'][entity_type]['values']:
-                    res_list.append([entity_types[entity_type], value['text']])
-        if count > 0:
-            return res_list
+            mid = result['mid']
+            count = 0
+            res_list = []
+            topic = Search.get_search_result(mid)
+            for p in topic['property']:
+                entity_type = get_prefix(p)
+                if entity_types[entity_type] is not None:
+                    count += 1
+                    for value in topic['property'][entity_type]['values']:
+                        res_list.append([entity_types[entity_type], value['text']])
+            if count > 0:
+                return res_list
     return []
 
 
