@@ -1,5 +1,7 @@
 import sys
 import Search
+import Analyser
+import Display
 
 
 def infobox(se, query):
@@ -15,11 +17,12 @@ def infobox(se, query):
         print topic_id
         topic = se.get_topic_result(topic_id)
         print topic
-
+        info_list = Analyser.build_infobox(topic)
         # Parse and analyze the topic
         # Get out of the loop if the topic is valid
         # Otherwise, continue to check the next topic
-        if True:
+        if not info_list:
+            Display.draw_infobox(info_list)
             break
 
 
