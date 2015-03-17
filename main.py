@@ -1,6 +1,7 @@
 import sys
 import Search
 
+
 def infobox(se, query):
     """
     infobox(search_engine, query)
@@ -21,6 +22,7 @@ def infobox(se, query):
         if True:
             break
 
+
 def question(se, quest):
     """
     question(search_engine, question)
@@ -29,6 +31,7 @@ def question(se, quest):
     # Analyze the question in the query first
     query = quest   # temp to do
     json = se.get_mql_result(query)
+
 
 def main(argv):
     """

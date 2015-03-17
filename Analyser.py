@@ -18,6 +18,7 @@ interest = {'Person': ['Name', 'Birthday'],
             'League': ['Name', 'Championship'],
             'SportsTeam': ['Name', 'Description']}
 
+
 # the input is the result from the Search API
 def build_infobox(results):
     if results is not None:

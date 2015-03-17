@@ -1,8 +1,10 @@
 import json
 import urllib
 
+
 def get_engine(api_key):
     return Search(api_key)
+
 
 class Search:
 
