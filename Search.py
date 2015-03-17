@@ -1,10 +1,11 @@
 import json
 import urllib
 
+def get_engine(api_key):
+    return Search(api_key)
 
 class Search:
 
-    # api_key = 'AIzaSyBgfj3L8cqcu6OEd21JkQcHhBQJA6jUOXo'
     service_url_search = 'https://www.googleapis.com/freebase/v1/search'
     service_url_topic = 'https://www.googleapis.com/freebase/v1/topic'
     service_url_mql = 'https://www.googleapis.com/freebase/v1/mqlread'
@@ -12,10 +13,11 @@ class Search:
     def __init__(self, api_key):
         self.api_key = api_key
 
-    # return the result of the Freebase Search API
-    @staticmethod
     def get_search_result(self, query):
-        # query = 'bill gates'
+        """
+        get_search_result(query)
+        Object method to get the search result via Freebase Search API
+        """
         params = {
             'query': query,
             'key': self.api_key
@@ -24,21 +26,24 @@ class Search:
         response = json.loads(urllib.urlopen(url).read())
         return response['result']
 
-    # return the result of the Freebase Topic API
-    @staticmethod
     def get_topic_result(self, topic_id):
-        # topic_id = '/m/0d6lp'
+        """
+        get_topic_result(topic_id)
+        Object method to get the topic result via Freebase Topic API
+        """
         params = {
             'key': self.api_key,
             'filter': 'suggest'
         }
         url = self.service_url_topic + topic_id + '?' + urllib.urlencode(params)
         topic = json.loads(urllib.urlopen(url).read())
+        return topic['property']
 
-    # return the result of the Freebase MQL API
-    @staticmethod
     def get_mql_result(self, query):
-        # query = = [{'id': None, 'name': None, 'type': '/astronomy/planet'}]
+        """
+        get_mql_result(query)
+        Object method to get the search result via Freebase MQL API
+        """
         params = {
             'query': json.dump(query),
             'key': self.api_key
