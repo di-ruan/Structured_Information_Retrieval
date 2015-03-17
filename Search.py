@@ -11,6 +11,7 @@ class Search:
     def __init__(self, api_key):
         self.api_key = api_key
 
+    # return the result of the Freebase Search API
     @staticmethod
     def get_search_result(self, query):
         # query = 'bill gates'
@@ -21,9 +22,8 @@ class Search:
         url = self.service_url_search + '?' + urllib.urlencode(params)
         response = json.loads(urllib.urlopen(url).read())
         return response['result']
-        # for result in response['result']:
-        #    print result['name'] + ' (' + str(result['score']) + ')'
 
+    # return the result of the Freebase Topic API
     @staticmethod
     def get_search_result(self, topic_id):
         # topic_id = '/m/0d6lp'
@@ -33,7 +33,3 @@ class Search:
         }
         url = self.service_url_topic + topic_id + '?' + urllib.urlencode(params)
         topic = json.loads(urllib.urlopen(url).read())
-        # for property in topic['property']:
-        #     print property + ':'
-        #     for value in topic['property'][property]['values']:
-        #         print ' - ' + value['text']
