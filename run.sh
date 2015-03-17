@@ -40,6 +40,7 @@ else
 				QUERY=$1
 				;;
 			-v )
+				IN_QUERY=n
 				VERBOSE=y
 				;;
 			* )
