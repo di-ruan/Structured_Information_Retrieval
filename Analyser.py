@@ -38,10 +38,10 @@ interest = {'/people/person': ['Name', 'date_of_birth', 'place_of_birth', 'death
 # the input is the result from the Topic API
 def build_infobox(topic):
     info_list = []
-    for p in topic['property']:
+    for p in topic:
         entity_type = get_prefix(p)
-        if entity_types[entity_type] is not None:
-            for value in topic['property'][entity_type]['values']:
+        if entity_type in entity_types.keys():
+            for value in topic[p]['values']:
                 info_list.append([entity_types[entity_type], value['text']])
     return info_list
 

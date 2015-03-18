@@ -10,20 +10,19 @@ def infobox(se, query):
     The function to generate infobox for the query
     """
     json = se.get_search_result(query)
-    print json
 
     for element in json:
         topic_id = element['mid']
-        print topic_id
         topic = se.get_topic_result(topic_id)
-        print topic
-        info_list = Analyser.build_infobox(topic)
+
         # Parse and analyze the topic
         # Get out of the loop if the topic is valid
         # Otherwise, continue to check the next topic
-        if not info_list:
-            Display.draw_infobox(info_list)
+        info_list = Analyser.build_infobox(topic)
+        if len(info_list) > 0:  # Nonempty result
             break
+
+    Display.draw_infobox(info_list)
 
 
 def question(se, quest):
