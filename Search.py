@@ -36,8 +36,7 @@ class Search:
         Object method to get the topic result via Freebase Topic API
         """
         params = {
-            'key': self.api_key,
-            'filter': 'suggest'
+            'key': self.api_key
         }
         url = self.service_url_topic + topic_id + '?' + urllib.urlencode(params)
         topic = json.loads(urllib.urlopen(url).read())
