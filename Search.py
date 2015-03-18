@@ -20,6 +20,8 @@ class Search:
         get_search_result(query)
         Object method to get the search result via Freebase Search API
         """
+        sep = ' '
+        query = sep.join(query)
         params = {
             'query': query,
             'key': self.api_key
