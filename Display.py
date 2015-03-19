@@ -12,8 +12,8 @@ test_list = [[1, 'Bill Gates(AUTHOR, BUSINESS_PERSON)'],
                                 investor, computer programmer, and inventor. Gates originally established his \
                                 reputation as the co-founder of Microsoft'],
              [3, 'Siblings', ['Libby Gates', 'Kristi Gates']],
-             [4, 'Leadership', ['Organization', 'Microsoft Corporation', 'Role', 'Chief Executive',
-                                'Title', 'Chief Executive', 'From-To', '1975-04-04 - now']]]
+             [4, 'Leadership', ['Organization', ['Microsoft Corporation'], 'Role', ['Chief Executive', 'CTO'],
+                                'Title', ['Chief Executive', 'COO', 'CFO'], 'From-To', ['1975-04-04 - now']]]]
 
 def draw_infobox(info_list):
     print "-----------------"

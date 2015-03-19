@@ -19,9 +19,27 @@ Author	Books(Title), Book About the Author(Title), Influenced, Influenced by
 Actor	FilmsParticipated(Film Name, Character)
 BusinessPerson	Leadership(From, To, Organization, Role, Title), BoardMember(From, To, Organization, Role, Title),
         Founded(OrganizationName)
-League	Name, Championship, Sport, Slogan, OfficialWebsite, Description, Teams
-SportsTeam	Name, Description, Sport, Arena, Championships, Coaches(Name, Position, From, To), Founded, Leagues,
-        Locations, PlayersRoster(Name, Position, Number, From, To)
+
+League
+        Name                "/type/object/name"
+        Championship        "/sports/sports_league/championship"
+        Sport               "/sports/sports_league/sport"
+        Slogan              "/organization/organization/slogan"
+        OfficialWebsite     "/common/topic/official_website"
+        Description         "/common/topic/description"
+        Teams               "/sports/sports_league/teams"
+
+SportsTeam
+        Name
+        Description
+        Sport
+        Arena
+        Championships
+        Coaches(Name, Position, From, To)
+        Founded
+        Leagues
+        Locations
+        PlayersRoster(Name, Position, Number, From, To)
 """
 
 interest = {'/people/person': ['Name', 'date_of_birth', 'place_of_birth', 'death', 'sibling_s', 'spouse_s',
@@ -29,7 +47,7 @@ interest = {'/people/person': ['Name', 'date_of_birth', 'place_of_birth', 'death
             '/book/author': ['book_editions_published', 'Influenced'],
             '/film/actor': ['FilmsParticipated', 'Character'],
             '/organization/organization_founder': ['organizations_founded', 'BoardMember'],
-            '/business/board_member': ['organizations_founded', 'BoardMember'],
+            '/business/board_member': ['organizations_founded', 'organization_board_memberships'],
             '/sports/sports_league': ['Name', 'Championship'],
             '/sports/sports_team': ['Name', 'Description'],
             '/sports/professional_sports_team': ['Name', 'Description']}
