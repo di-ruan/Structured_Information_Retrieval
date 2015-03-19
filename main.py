@@ -10,8 +10,8 @@ def infobox(se, query):
     infobox(search_engine, query)
     The function to generate infobox for the query
     """
-    query = 'Chelsea'
-    json = se.get_search_result(query)
+    q = ' '.join(query)
+    json = se.get_search_result(q)
 
     for element in json:
         topic_id = element['mid']
@@ -20,9 +20,7 @@ def infobox(se, query):
         # Parse and analyze the topic
         # Get out of the loop if the topic is valid
         # Otherwise, continue to check the next topic
-        title = ''
-        for t in query:
-            title += t
+        title = ' '.join(query).title()
         info_list = Analyser.build_infobox(topic, title)
         if len(info_list) > 0:  # Nonempty result
             print info_list
