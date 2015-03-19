@@ -50,7 +50,7 @@ def build_infobox(topic, title):
         info_list.extend(get_team(topic))
         entities += 'SPORTS TEAM, '
     if entities:
-        info_list.insert(0, [[1, str(title) + '(' + str(entities[:-2]) + ')']])
+        info_list.insert(0, [1, str(title) + '(' + str(entities[:-2]) + ')'])
     return info_list
 
 
