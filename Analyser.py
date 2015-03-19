@@ -155,8 +155,8 @@ def get_actor(topic):
     for film in get(topic, ["/film/actor/film", 'values']):
         character_list.append(get(film, ['property', '/film/performance/character', 'values', 0, 'text']))
         film_name_list.append(get(film, ['property', '/film/performance/film', 'values', 0, 'text']))
-    if (not character_list) or (not film_name_list):
-        info_list.append([4, "Films", ['Character', character_list, 'Film Name', film_name_list]])
+    if character_list or film_name_list:
+        info_list.append([4, "Films", [['Character', 'Film Name'],  character_list, film_name_list]])
     return info_list
 
 """
@@ -189,9 +189,9 @@ def get_business(topic):
             from_date = get(organization, ['property', '/organization/leadership/from', 'values', 0, 'text'])
             to_date = get(organization, ['property', '/organization/leadership/to', 'values', 0, 'text'])
             date_list.append(from_date + ' / ' + to_date)
-        if (not organization_list) or (not role_list) or (not title_list) or (not date_list):
-            info_list.append([4, "Leadership", ['Organization', organization_list, 'Role', role_list,
-                                                'Title', title_list, 'From/To', date_list]])
+        if organization_list or role_list or title_list or date_list:
+            info_list.append([4, "Leadership", [['Organization', 'Role', 'Title', 'From/To'], organization_list,
+                                                role_list, title_list, date_list]])
     if topic.get("/business/board_member/organization_board_memberships"):
         organization_list = []
         role_list = []
@@ -210,9 +210,9 @@ def get_business(topic):
             to_date = get(member, ['property', '/organization/organization_board_membership/to',
                                    'values', 0, 'text'])
             date_list.append(from_date + ' / ' + to_date)
-        if (not organization_list) or (not role_list) or (not title_list) or (not date_list):
-            info_list.append([4, "Leadership", ['Organization', organization_list, 'Role', role_list,
-                                                'Title', title_list, 'From/To', date_list]])
+        if organization_list or role_list or title_list or date_list:
+            info_list.append([4, "Leadership", [['Organization', 'Role', 'Title', 'From/To'], organization_list,
+                                                role_list, title_list, date_list]])
     return info_list
 
 """
@@ -282,8 +282,8 @@ def get_team(topic):
             from_date = get(coach, ['property', '/sports/sports_team_coach_tenure/from', 'values', 0, 'text'])
             to_date = get(coach, ['property', '/sports/sports_team_coach_tenure/to', 'values', 0, 'text'])
             date_list.append(from_date + ' / ' + to_date)
-        if (not name_list) or (not position_list) or (not date_list):
-            info_list.append([4, "Coaches", ['Name', name_list, 'Position', position_list, 'From/To', date_list]])
+        if name_list or position_list or date_list:
+            info_list.append([4, "Coaches", [['Name', 'Position', 'From/To'], name_list, position_list, date_list]])
     if get(topic, ["/sports/sports_team/roster"]):
         name_list = []
         position_list = []
@@ -299,8 +299,8 @@ def get_team(topic):
             from_date = get(player, ['property', '/sports/sports_team_roster/from', 'values', 0, 'text'])
             to_date = get(player, ['property', '/sports/sports_team_roster/to', 'values', 0, 'text'])
             date_list.append(from_date + ' / ' + to_date)
-        if (not name_list) or (not position_list) or (not number_list) or (not date_list):
-            info_list.append([4, "PlayersRoster", ['Name', name_list, 'Position', position_list,
-                                                   'Number', number_list, 'From/To', date_list]])
+        if name_list or position_list or number_list or date_list:
+            info_list.append([4, "PlayersRoster", [['Name', 'Position', 'Number', 'From/To'],  name_list, position_list,
+                                                   number_list, date_list]])
     info_list.append([2, "Description", get(topic, ["/common/topic/description", "values", 0, "value"])])
     return info_list
