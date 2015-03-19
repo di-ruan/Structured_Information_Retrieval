@@ -9,6 +9,7 @@ def infobox(se, query):
     infobox(search_engine, query)
     The function to generate infobox for the query
     """
+    query = 'Chelsea'
     json = se.get_search_result(query)
 
     for element in json:
@@ -18,11 +19,15 @@ def infobox(se, query):
         # Parse and analyze the topic
         # Get out of the loop if the topic is valid
         # Otherwise, continue to check the next topic
-        info_list = Analyser.build_infobox(topic)
+        title = ''
+        for t in query:
+            title += t
+        info_list = Analyser.build_infobox(topic, title)
         if len(info_list) > 0:  # Nonempty result
+            print info_list
             break
 
-    Display.draw_infobox(info_list)
+    #Display.draw_infobox(info_list)
 
 
 def question(se, quest):
