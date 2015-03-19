@@ -2,6 +2,7 @@ import sys
 import Search
 import Analyser
 import Display
+import Answer
 
 
 def infobox(se, query):
@@ -30,14 +31,23 @@ def infobox(se, query):
     #Display.draw_infobox(info_list)
 
 
-def question(se, quest):
+def question(se, question):
     """
     question(search_engine, question)
     The function to generate result for a question
     """
     # Analyze the question in the query first
-    query = quest   # temp to do
-    json = se.get_mql_result(query)
+    term = Answer.get_term(question)
+    author_query = Answer.get_query(term, 'author')
+    business_person_query = Answer.get_query(term, 'business_person')
+    author_result = se.get_mql_result(author_query)
+    business_person_result = se.get_mql_result(business_person_query)
+    author_answer = Answer.get_answer(author_result)
+    business_person_answer = Answer.get_answer(business_person_result)
+    author_answer.extend(business_person_answer)
+
+    #Display.draw_answer(author_answer)
+
 
 
 def main(argv):

@@ -46,7 +46,7 @@ class Search:
         Object method to get the search result via Freebase MQL API
         """
         params = {
-            'query': json.dump(query),
+            'query': query,
             'key': self.api_key
         }
         url = self.service_url_mql + '?' + urllib.urlencode(params)
