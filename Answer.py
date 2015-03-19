@@ -31,4 +31,4 @@ def get_answer(result):
     answer = []
     return answer
 
-get_author_query('mona lisa', 'art')
+#get_author_query('mona lisa', 'art')
