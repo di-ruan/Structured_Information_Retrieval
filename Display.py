@@ -1,3 +1,7 @@
+import sys
+sys.path.append('prettytable-0.7.2')
+import prettytable
+
 # info_list is a list of list with 2 elements except for the first one which is the title of the table
 # In each pair, the first element is String
 # the second element can be String, List, Dictionary
@@ -17,3 +21,7 @@ test_list = [[1, 'Bill Gates(AUTHOR, BUSINESS_PERSON)'],
 
 def draw_infobox(info_list):
     print "-----------------"
+    table = prettytable.PrettyTable()
+    for info in info_list:
+        table.add_row(info)
+    print table
