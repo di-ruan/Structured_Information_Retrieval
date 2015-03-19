@@ -26,7 +26,7 @@ def infobox(se, query):
             print info_list
             break
 
-    #Display.draw_infobox(info_list)
+    Display.draw_infobox(info_list)
 
 
 def question(se, question):
