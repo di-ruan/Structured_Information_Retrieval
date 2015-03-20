@@ -25,7 +25,7 @@ def infobox(se, query):
         title = ' '.join(query).title()
         info_list = Analyser.build_infobox(topic, title)
         if len(info_list) > 0:  # Nonempty result
-            print info_list
+            # print info_list
             break
 
     if info_list is None:

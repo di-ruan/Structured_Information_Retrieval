@@ -29,7 +29,6 @@ def build_infobox(topic, title):
         entity_type = get_prefix(p)
         entity_list.append(entity_type)
     entities = ''
-    print entity_list
     if '/people/person' in entity_list:
         info_list.extend(get_person(topic))
         entities += 'PERSON, '
@@ -46,7 +45,6 @@ def build_infobox(topic, title):
         info_list.extend(get_league(topic))
         entities += 'LEAGUE, '
     if ('/sports/professional_sports_team' in entity_list) or ('/sports/sports_team' in entity_list):
-        print 'is team'
         info_list.extend(get_team(topic))
         entities += 'SPORTS TEAM, '
     if entities:
@@ -290,7 +288,7 @@ def get_team(topic):
         number_list = []
         date_list = []
         for player in get(topic, ["/sports/sports_team/roster", 'values']):
-            name_list.append(get(player, ['property', '/sports/sports_team_coach_tenure/coach', 'values', 0, 'text']))
+            name_list.append(get(player, ['property', '/sports/sports_team_roster/player', 'values', 0, 'text']))
             positions = ''
             for position in get(player, ['property', '/sports/sports_team_roster/position', 'values']):
                 positions += position['text'] + ', '
