@@ -15,11 +15,22 @@ b) File list
     Display.py
     Search.py
     README.txt
+    transcript_Bill_Gates.txt
+    transcript_Robert_Downey_Jr.txt
+    transcript_Jackson.txt
+    transcript_NFL.txt
+    transcript_NBA.txt
+    transcript_NY_Knicks.txt
+    transcript_Miami_Heat.txt
+    transcript_who_created_Google.txt
+    transcript_who_created_Lord_Of_the_Rings.txt
+    transcript_who_created_Microsoft.txt
+    transcript_who_created_Romeo_and_Juliet.txt
 
 
 c) Usage
 
-    To run our program, We provide three options:
+    To run our program, We provide the same three options as the reference program:
     1.  ./run.sh -key <Freebase API key> -q <query> -t <infobox|question>
     2.  ./run.sh -key <Freebase API key> -f <files of queries> -t <infobox|question>
     3.  ./run.sh -key <Freebase API key>
