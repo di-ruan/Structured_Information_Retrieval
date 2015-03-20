@@ -33,6 +33,9 @@ def build_infobox(topic, title):
         entities += 'BUSINESS_PERSON, '
     if entities:
         info_list.insert(0, [1, str(table_title) + ' (' + str(entities[:-2]) + ')'])
+    for li in info_list:
+        if li[0] == 2 and not li[2]:
+            info_list.remove(li)
     return info_list
 
 
@@ -58,7 +61,9 @@ Person
         Name                        "/type/object/name"
         Birthday                    "/people/person/date_of_birth"
         Place of Birth              "/people/person/place_of_birth"
-        Death(Place, Date, Cause)   ?
+        Date of Death               "/people/deceased_person/date_of_death"
+        Place of Death              "/people/deceased_person/place_of_death"
+        Cause of Death              "/people/deceased_person/cause_of_death"
         Description                 "/common/topic/description"
         Siblings                    "/people/person/sibling_s"
         Spouses                     "/people/person/spouse_s"
@@ -70,9 +75,12 @@ def get_person(topic):
     if get(topic, ["/type/object/name", "values", 0, "text"]):
         global table_title
         table_title = get(topic, ["/type/object/name", "values", 0, "text"])
-    info_list.append([2, "Name", get(topic, ["/type/object/name", "values", 0, "text"])])
+        info_list.append([2, "Name", get(topic, ["/type/object/name", "values", 0, "text"])])
     info_list.append([2, "Birthday", get(topic, ["/people/person/date_of_birth", "values", 0, "text"])])
     info_list.append([2, "Place of Birth", get(topic, ["/people/person/place_of_birth", "values", 0, "text"])])
+    info_list.append([2, "Date of Death", get(topic, ["/people/deceased_person/date_of_death", "values", 0, "text"])])
+    info_list.append([2, "Place of Death", get(topic, ["/people/deceased_person/place_of_death", "values", 0, "text"])])
+    info_list.append([2, "Cause of Death", get(topic, ["/people/deceased_person/cause_of_death", "values", 0, "text"])])
     info_list.append([2, "Descriptions", get(topic, ["/common/topic/description", "values", 0, "value"])])
     if get(topic, ["/people/person/sibling_s"]):
         sibling_list = []
@@ -196,10 +204,16 @@ def get_business(topic):
                                      'values', 0, 'text'])
             to_date = get(member, ['property', '/organization/organization_board_membership/to',
                                    'values', 0, 'text'])
-            date_list.append(from_date + ' / ' + to_date)
+            if from_date:
+                if to_date:
+                    date_list.append(from_date + ' / ' + to_date)
+                else:
+                    date_list.append(from_date + ' / now')
+            else:
+                date_list.append('')
         if organization_list or role_list or title_list or date_list:
             info_list.append([4, "Board Member", [['Organization', 'Role', 'Title', 'From/To'], organization_list,
-                                                role_list, title_list, date_list]])
+                              role_list, title_list, date_list]])
     return info_list
 
 """
