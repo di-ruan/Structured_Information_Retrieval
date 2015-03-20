@@ -1,8 +1,8 @@
 import textwrap
 
 W = 100
-T = '+--------------------------------------------------------------------------------------------------+'
-H = '+-------------------+------------------------------------------------------------------------------+'
+N = '+'
+L = '-'
 V = '|'
 WS = ' '
 W_LEFT = 20
@@ -34,7 +34,28 @@ def padding_space(strlist, target_size):
     if target_size > len(strlist):
         for i in range(target_size - len(strlist)):
             strlist.append(' ')
-    return strlist
+
+
+def col_to_row(column):
+    c = len(column)
+    r = len(column[0])
+    row = []
+    for i in range(r):
+        tmp = []
+        for j in range(c):
+            tmp.append(column[j][i])
+        row.append(tmp)
+    return row
+
+
+def organize_row(row, bound):
+    wrap = []
+    for r in row:
+        wrap.append(textwrap.wrap(r, bound))
+    h = max(map(len, wrap))
+    for r in wrap:
+        padding_space(r, h)
+    return col_to_row(wrap)
 
 
 def draw_title(title):
@@ -45,15 +66,15 @@ def draw_title(title):
     text = textwrap.wrap(title[0], l)
     for t in text:
         print V + WS + t.center(l) + WS + V
-    print H
+    print N + L*(W_LEFT-len(N)*2) + N + L*(W_BODY-len(N)) + N
 
 
 def draw_items(item):
     if len(item) != 2:
         print 'The length of type 2 or 3 is incorrect'
         return
-    lt = W_LEFT - (len(V)+len(WS)*2)
-    lb = W_BODY - len(V+WS)*2
+    lt = W_LEFT - len(V+WS)*2
+    lb = W_BODY - (len(WS)*2+len(V))
     topic = textwrap.wrap(item[0], lt)
     if type(item[1]) is list:
         content = []
@@ -62,11 +83,11 @@ def draw_items(item):
     else:   # Should be string (or unistring)
         content = textwrap.wrap(item[1], lb)
     h = max(len(topic), len(content))
-    topic = padding_space(topic, h)
-    content = padding_space(content, h)
+    padding_space(topic, h)
+    padding_space(content, h)
     for i in range(h):
         print V + WS + topic[i].ljust(lt) + WS + V + WS + content[i].ljust(lb) + WS + V
-    print H
+    print N + L*(W_LEFT-len(N)*2) + N + L*(W_BODY-len(N)) + N
 
 
 def draw_table(item):
@@ -76,12 +97,40 @@ def draw_table(item):
     if type(item[1]) is not list:
         print 'The items for a table should be a list'
         return
-    lt = W_LEFT - (len(V)+len(WS)*2)
+    lt = W_LEFT - len(V+WS)*2
     topic = textwrap.wrap(item[0], lt)
+    column = item[1][0]
+    col_num = len(column)
+    content = col_to_row(item[1][1:])
+    lb = W_BODY/col_num - (len(WS)*2+len(V))
+    lb_1st = W_BODY - (W_BODY/col_num)*(col_num-1) - (len(WS)*2+len(V))
+    col = organize_row(column, lb)
+    table = []
+    for c in content:
+        table = table + organize_row(c, lb)
+    h = len(col) + 1 + len(table)   # '1' for the separate line
+    padding_space(topic, h)
+    for i in range(h):
+        if i < len(col):
+            s = WS + col[i][0].ljust(lb_1st) + WS + V
+            for c in col[i][1:]:
+                s = s + WS + c.ljust(lb) + WS + V
+            print V + WS + topic[i].ljust(lt) + WS + V + s
+        elif i > len(col):
+            s = WS + table[i-len(col)-1][0].ljust(lb_1st) + WS + V
+            for c in table[i-len(col)-1][1:]:
+                s = s + WS + c.ljust(lb) + WS + V
+            print V + WS + topic[i].ljust(lt) + WS + V + s
+        else:
+            s = L*(lb_1st+2) + N
+            for i in range(1, col_num):
+                s = s + L*(lb+2) + N
+            print V + WS*(W_LEFT-len(N)*2) + N + s
+    print N + L*(W_LEFT-len(N)*2) + N + L*(W_BODY-len(N)) + N
 
 
 def draw_infobox(info_list):
-    print T
+    print N + L*(W-len(N)*2) + N
     for item in info_list:
         if item[0] == 1:
             draw_title(item[1:])
