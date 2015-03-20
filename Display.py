@@ -91,5 +91,5 @@ def draw_infobox(info_list):
             draw_table(item[1:])
 
 
-def draw_answer(author_answer, question):
+def draw_answer(answer_list, question):
     print '-----'
