@@ -26,6 +26,8 @@ class Search:
         }
         url = self.service_url_search + '?' + urllib.urlencode(params)
         response = json.loads(urllib.urlopen(url).read())
+        if not response.has_key('result'):
+            return None
         return response['result']
 
     def get_topic_result(self, topic_id):
@@ -38,6 +40,8 @@ class Search:
         }
         url = self.service_url_topic + topic_id + '?' + urllib.urlencode(params)
         topic = json.loads(urllib.urlopen(url).read())
+        if not topic.has_key('property'):
+            return None
         return topic['property']
 
     def get_mql_result(self, query):
@@ -51,4 +55,6 @@ class Search:
         }
         url = self.service_url_mql + '?' + urllib.urlencode(params)
         response = json.loads(urllib.urlopen(url).read())
+        if not response.has_key('result'):
+            return None
         return response['result']

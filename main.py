@@ -12,12 +12,17 @@ def infobox(se, query):
     """
     q = ' '.join(query)
     json = se.get_search_result(q)
+    if json is None:
+        print 'Error in search'
+        return
 
     info_list = None
 
     for element in json:
         topic_id = element['mid']
         topic = se.get_topic_result(topic_id)
+        if topic is None:
+            continue
 
         # Parse and analyze the topic
         # Get out of the loop if the topic is valid
@@ -46,7 +51,13 @@ def question(se, question):
     author_query = Answer.get_query(term, 'author')
     business_person_query = Answer.get_query(term, 'business_person')
     author_result = se.get_mql_result(author_query)
+    if author_result is None:
+        print 'Error in author search'
+        return
     business_person_result = se.get_mql_result(business_person_query)
+    if business_person_result is None:
+        print 'Error in business person search'
+        return
     author_answer = Answer.get_answer(author_result, 'author')
     business_person_answer = Answer.get_answer(business_person_result, 'business_person')
     author_answer.extend(business_person_answer)
