@@ -13,6 +13,8 @@ def infobox(se, query):
     q = ' '.join(query)
     json = se.get_search_result(q)
 
+    info_list = None
+
     for element in json:
         topic_id = element['mid']
         topic = se.get_topic_result(topic_id)
@@ -26,7 +28,10 @@ def infobox(se, query):
             print info_list
             break
 
-    Display.draw_infobox(info_list)
+    if info_list is None:
+        print 'There is no result for \'' + q + '\'!'
+    else:
+        Display.draw_infobox(info_list)
 
 
 def question(se, question):
