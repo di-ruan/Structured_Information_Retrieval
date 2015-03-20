@@ -1,30 +1,14 @@
 import re
 
-entity_types = {'/people/person': 'Person',
-                '/book/author': 'Author',
-                '/film/actor': 'Actor',
-                '/tv/tv_actor': 'Actor',
-                '/organization/organization_founder': 'BusinessPerson',
-                '/business/board_member': 'BusinessPerson',
-                '/sports/sports_league': 'League',
-                '/sports/sports_team': 'SportsTeam',
-                '/sports/professional_sports_team': 'SportsTeam'}
-
-interest = {'/people/person': ['Name', 'date_of_birth', 'place_of_birth', 'death', 'sibling_s', 'spouse_s',
-                               'description'],
-            '/book/author': ['book_editions_published', 'Influenced'],
-            '/film/actor': ['FilmsParticipated', 'Character'],
-            '/organization/organization_founder': ['organizations_founded', 'BoardMember'],
-            '/business/board_member': ['organizations_founded', 'organization_board_memberships'],
-            '/sports/sports_league': ['Name', 'Championship'],
-            '/sports/sports_team': ['Name', 'Description'],
-            '/sports/professional_sports_team': ['Name', 'Description']}
+table_title = ''
 
 
 # the input is the result from the Topic API
 def build_infobox(topic, title):
     info_list = []
     entity_list = []
+    global table_title
+    table_title = title
     for p in topic:
         entity_type = get_prefix(p)
         entity_list.append(entity_type)
@@ -32,6 +16,12 @@ def build_infobox(topic, title):
     if '/people/person' in entity_list:
         info_list.extend(get_person(topic))
         entities += 'PERSON, '
+    if '/sports/sports_league' in entity_list:
+        info_list.extend(get_league(topic))
+        entities += 'LEAGUE, '
+    if ('/sports/professional_sports_team' in entity_list) or ('/sports/sports_team' in entity_list):
+        info_list.extend(get_team(topic))
+        entities += 'SPORTS TEAM, '
     if '/book/author' in entity_list:
         info_list.extend(get_author(topic))
         entities += 'AUTHOR, '
@@ -41,14 +31,8 @@ def build_infobox(topic, title):
     if ('/organization/organization_founder' in entity_list) or ('/business/board_member' in entity_list):
         info_list.extend(get_business(topic))
         entities += 'BUSINESS_PERSON, '
-    if '/sports/sports_league' in entity_list:
-        info_list.extend(get_league(topic))
-        entities += 'LEAGUE, '
-    if ('/sports/professional_sports_team' in entity_list) or ('/sports/sports_team' in entity_list):
-        info_list.extend(get_team(topic))
-        entities += 'SPORTS TEAM, '
     if entities:
-        info_list.insert(0, [1, str(title) + '(' + str(entities[:-2]) + ')'])
+        info_list.insert(0, [1, str(table_title) + ' (' + str(entities[:-2]) + ')'])
     return info_list
 
 
@@ -83,6 +67,9 @@ Person
 
 def get_person(topic):
     info_list = list()
+    if get(topic, ["/type/object/name", "values", 0, "text"]):
+        global table_title
+        table_title = get(topic, ["/type/object/name", "values", 0, "text"])
     info_list.append([2, "Name", get(topic, ["/type/object/name", "values", 0, "text"])])
     info_list.append([2, "Birthday", get(topic, ["/people/person/date_of_birth", "values", 0, "text"])])
     info_list.append([2, "Place of Birth", get(topic, ["/people/person/place_of_birth", "values", 0, "text"])])
@@ -97,13 +84,15 @@ def get_person(topic):
         for value in get(topic, ["/people/person/spouse_s", "values"]):
             spouse_name = get(value, ['property', '/people/marriage/spouse', 'values', 0, 'text'])
             spouse_from = get(value, ['property', '/people/marriage/from', 'values', 0, 'text'])
-            if get(value, ['property', '/people/marriage/from', '/people/marriage/to', 'values', 0, 'text']):
-                spouse_to = get(value, ['property', '/people/marriage/from', '/people/marriage/to',
-                                        'values', 0, 'text'])
+            if get(value, ['property', '/people/marriage/to', 'values', 0, 'text']):
+                spouse_to = get(value, ['property', '/people/marriage/to', 'values', 0, 'text'])
             else:
                 spouse_to = 'now'
-            spouse_location = get(value, ['property', '/people/marriage/location_of_ceremony', 'values', 0, 'text'])
-            spouse_list.append(spouse_name + ' (' + spouse_from + ' - ' + spouse_to + ' ) @ ' + spouse_location)
+            spouse_location = ''
+            if get(value, ['property', '/people/marriage/location_of_ceremony', 'values', 0, 'text']):
+                spouse_location = '@ ' + get(value, ['property', '/people/marriage/location_of_ceremony',
+                                                     'values', 0, 'text'])
+            spouse_list.append(spouse_name + ' (' + spouse_from + ' - ' + spouse_to + ' ) ' + spouse_location)
         info_list.append([3, "Spouses", spouse_list])
     return info_list
 
@@ -112,7 +101,7 @@ Author
         Books(Title)                    "/book/author/works_written"
         Book About the Author(Title)    "/book/book_subject/works"
         Influenced                      "/influence/influence_node/influenced"
-        Influenced by                   ?
+        Influenced by                   "/influence/influence_node/influenced_by"
 """
 
 
@@ -209,7 +198,7 @@ def get_business(topic):
                                    'values', 0, 'text'])
             date_list.append(from_date + ' / ' + to_date)
         if organization_list or role_list or title_list or date_list:
-            info_list.append([4, "Leadership", [['Organization', 'Role', 'Title', 'From/To'], organization_list,
+            info_list.append([4, "Board Member", [['Organization', 'Role', 'Title', 'From/To'], organization_list,
                                                 role_list, title_list, date_list]])
     return info_list
 
@@ -227,6 +216,9 @@ League
 
 def get_league(topic):
     info_list = list()
+    if get(topic, ["/type/object/name", "values", 0, "text"]):
+        global table_title
+        table_title = get(topic, ["/type/object/name", "values", 0, "text"])
     info_list.append([2, "Name", get(topic, ["/type/object/name", "values", 0, "text"])])
     info_list.append([2, "Sport", get(topic, ["/sports/sports_league/sport", "values", 0, "text"])])
     info_list.append([2, "Slogan", get(topic, ["/organization/organization/slogan", "values", 0, "text"])])
@@ -257,6 +249,9 @@ SportsTeam
 
 def get_team(topic):
     info_list = list()
+    if get(topic, ["/type/object/name", "values", 0, "text"]):
+        global table_title
+        table_title = get(topic, ["/type/object/name", "values", 0, "text"])
     info_list.append([2, "Name", get(topic, ["/type/object/name", "values", 0, "text"])])
     info_list.append([2, "Sport", get(topic, ["/sports/sports_team/sport", "values", 0, "text"])])
     info_list.append([2, "Arena", get(topic, ["/sports/sports_team/arena_stadium", "values", 0, "text"])])
@@ -278,7 +273,10 @@ def get_team(topic):
             position_list.append(get(coach, ['property', '/sports/sports_team_coach_tenure/position', 'values',
                                              0, 'text']))
             from_date = get(coach, ['property', '/sports/sports_team_coach_tenure/from', 'values', 0, 'text'])
-            to_date = get(coach, ['property', '/sports/sports_team_coach_tenure/to', 'values', 0, 'text'])
+            if get(coach, ['property', '/sports/sports_team_coach_tenure/to', 'values', 0, 'text']):
+                to_date = get(coach, ['property', '/sports/sports_team_coach_tenure/to', 'values', 0, 'text'])
+            else:
+                to_date = 'now'
             date_list.append(from_date + ' / ' + to_date)
         if name_list or position_list or date_list:
             info_list.append([4, "Coaches", [['Name', 'Position', 'From/To'], name_list, position_list, date_list]])
