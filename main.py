@@ -44,7 +44,6 @@ def question(se, question):
     question(search_engine, question)
     The function to generate result for a question
     """
-    print question
     q = ' '.join(question)
     # Analyze the question in the query first
     term = Answer.get_term(q)
@@ -62,7 +61,7 @@ def question(se, question):
     business_person_answer = Answer.get_answer(business_person_result, 'business_person')
     author_answer.extend(business_person_answer)
 
-    Display.draw_answer(author_answer, question)
+    Display.draw_answer(author_answer, q)
 
 
 

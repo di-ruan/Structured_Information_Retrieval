@@ -7,6 +7,9 @@ V = '|'
 WS = ' '
 W_LEFT = 20
 W_BODY = 80
+W_NAME = 30
+W_TYPE = 20
+W_LIST = 50
 
 # info_list is a list of list with 2 elements except for the first one which is the title of the table
 # In each pair, the first element is String
@@ -140,5 +143,40 @@ def draw_infobox(info_list):
             draw_table(item[1:])
 
 
+def draw_answer_table(item):
+    if len(item) != 3:
+        print 'The length of answer is incorrect'
+        return
+    if type(item[2]) is not list:
+        print 'The items for a table should be a list'
+        return
+    ln = W_NAME - len(V+WS)*2
+    lt = W_TYPE - (len(WS)*2+len(V))
+    ll = W_LIST - (len(WS)*2+len(V))
+    name = textwrap.wrap(item[0], ln)
+    atype = textwrap.wrap(item[1], lt)
+    plist = item[2]
+    row = col_to_row([plist])
+    plist = []
+    for r in row:
+        plist = plist + organize_row(r, ll)
+    padding_space(atype, len(plist))
+    h = 2 + len(plist)
+    padding_space(name, h)
+    print V + WS + name[0].ljust(ln) + WS + V + WS + 'As'.ljust(lt) + WS + V + WS + 'Creation'.ljust(ll) + WS + V
+    print V + WS + name[1].ljust(ln) + WS + N + L*(W_TYPE-len(N)) + N + L*(W_LIST-len(N)) + N
+    for i in range(2, h):
+        j = i - 2
+        print V + WS + name[i].ljust(ln) + WS + V + WS + atype[j].ljust(lt) + WS + V + WS + plist[j][0].ljust(ll) + WS + V
+    print N + L*(W_NAME-len(N)*2) + N + L*(W_TYPE-len(N)) + N + L*(W_LIST-len(N)) + N
+
+
 def draw_answer(answer_list, question):
-    print '-----'
+    print N + L*(W-len(N)*2) + N
+    l = W - len(V+WS)*2
+    text = textwrap.wrap(question, l)
+    for t in text:
+        print V + WS + t.center(l) + WS + V
+    print N + L*(W_NAME-len(N)*2) + N + L*(W_TYPE-len(N)) + N + L*(W_LIST-len(N)) + N
+    for item in answer_list:
+        draw_answer_table(item)
