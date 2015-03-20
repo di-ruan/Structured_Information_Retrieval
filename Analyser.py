@@ -1,34 +1,14 @@
 import re
 
-entity_types = {'/people/person': 'Person',
-                '/book/author': 'Author',
-                '/film/actor': 'Actor',
-                '/tv/tv_actor': 'Actor',
-                '/organization/organization_founder': 'BusinessPerson',
-                '/business/board_member': 'BusinessPerson',
-                '/sports/sports_league': 'League',
-                '/sports/sports_team': 'SportsTeam',
-                '/sports/professional_sports_team': 'SportsTeam'}
-
-interest = {'/people/person': ['Name', 'date_of_birth', 'place_of_birth', 'death', 'sibling_s', 'spouse_s',
-                               'description'],
-            '/book/author': ['book_editions_published', 'Influenced'],
-            '/film/actor': ['FilmsParticipated', 'Character'],
-            '/organization/organization_founder': ['organizations_founded', 'BoardMember'],
-            '/business/board_member': ['organizations_founded', 'organization_board_memberships'],
-            '/sports/sports_league': ['Name', 'Championship'],
-            '/sports/sports_team': ['Name', 'Description'],
-            '/sports/professional_sports_team': ['Name', 'Description']}
-
-current_title = ''
+table_title = ''
 
 
 # the input is the result from the Topic API
 def build_infobox(topic, title):
     info_list = []
     entity_list = []
-    global current_title
-    current_title = title
+    global table_title
+    table_title = title
     for p in topic:
         entity_type = get_prefix(p)
         entity_list.append(entity_type)
@@ -52,7 +32,7 @@ def build_infobox(topic, title):
         info_list.extend(get_business(topic))
         entities += 'BUSINESS_PERSON, '
     if entities:
-        info_list.insert(0, [1, str(current_title) + ' (' + str(entities[:-2]) + ')'])
+        info_list.insert(0, [1, str(table_title) + ' (' + str(entities[:-2]) + ')'])
     return info_list
 
 
@@ -88,8 +68,8 @@ Person
 def get_person(topic):
     info_list = list()
     if get(topic, ["/type/object/name", "values", 0, "text"]):
-        global current_title
-        current_title = get(topic, ["/type/object/name", "values", 0, "text"])
+        global table_title
+        table_title = get(topic, ["/type/object/name", "values", 0, "text"])
     info_list.append([2, "Name", get(topic, ["/type/object/name", "values", 0, "text"])])
     info_list.append([2, "Birthday", get(topic, ["/people/person/date_of_birth", "values", 0, "text"])])
     info_list.append([2, "Place of Birth", get(topic, ["/people/person/place_of_birth", "values", 0, "text"])])
@@ -121,7 +101,7 @@ Author
         Books(Title)                    "/book/author/works_written"
         Book About the Author(Title)    "/book/book_subject/works"
         Influenced                      "/influence/influence_node/influenced"
-        Influenced by                   ?
+        Influenced by                   "/influence/influence_node/influenced_by"
 """
 
 
@@ -237,8 +217,8 @@ League
 def get_league(topic):
     info_list = list()
     if get(topic, ["/type/object/name", "values", 0, "text"]):
-        global current_title
-        current_title = get(topic, ["/type/object/name", "values", 0, "text"])
+        global table_title
+        table_title = get(topic, ["/type/object/name", "values", 0, "text"])
     info_list.append([2, "Name", get(topic, ["/type/object/name", "values", 0, "text"])])
     info_list.append([2, "Sport", get(topic, ["/sports/sports_league/sport", "values", 0, "text"])])
     info_list.append([2, "Slogan", get(topic, ["/organization/organization/slogan", "values", 0, "text"])])
@@ -270,8 +250,8 @@ SportsTeam
 def get_team(topic):
     info_list = list()
     if get(topic, ["/type/object/name", "values", 0, "text"]):
-        global current_title
-        current_title = get(topic, ["/type/object/name", "values", 0, "text"])
+        global table_title
+        table_title = get(topic, ["/type/object/name", "values", 0, "text"])
     info_list.append([2, "Name", get(topic, ["/type/object/name", "values", 0, "text"])])
     info_list.append([2, "Sport", get(topic, ["/sports/sports_team/sport", "values", 0, "text"])])
     info_list.append([2, "Arena", get(topic, ["/sports/sports_team/arena_stadium", "values", 0, "text"])])
