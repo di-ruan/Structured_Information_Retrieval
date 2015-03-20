@@ -51,5 +51,4 @@ class Search:
         }
         url = self.service_url_mql + '?' + urllib.urlencode(params)
         response = json.loads(urllib.urlopen(url).read())
-        #print response
         return response['result']

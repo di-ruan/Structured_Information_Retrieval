@@ -1,0 +1,43 @@
+{
+  'result': [
+    {
+      'type': '/organization/organization_founder',
+      'id': '/en/bill_gates',
+      'name': 'Bill Gates',
+      '/organization/organization_founder/organizations_founded': [
+        {'a:name': 'Microsoft Corporation'},
+        {'a:name': 'Microsoft Research'}
+      ]
+    },
+    {
+      'type': '/organization/organization_founder',
+      'id': '/en/paul_allen',
+      'name': 'Paul Allen',
+      '/organization/organization_founder/organizations_founded': [{'a:name': 'Microsoft Corporation'}]
+    },
+    {
+      'type': '/organization/organization_founder',
+      'id': '/en/nathan_myhrvold',
+      'name': 'Nathan Myhrvold',
+      '/organization/organization_founder/organizations_founded': [{'a:name': 'Microsoft Research'}]
+    },
+    {
+      'type': '/organization/organization_founder',
+      'id': '/en/richard_rashid',
+      'name': 'Richard Rashid',
+      '/organization/organization_founder/organizations_founded': [{'a:name': 'Microsoft Research'}]
+    },
+    {
+      'type': '/organization/organization_founder',
+      'id': '/en/stephen_hawking',
+      'name': 'Stephen Hawking',
+      '/organization/organization_founder/organizations_founded': [{'a:name': 'Microsoft Research'}]
+    },
+    {
+      'type': '/organization/organization_founder',
+      'id': '/en/kai-fu_lee',
+      'name': 'Kai-Fu Lee',
+      '/organization/organization_founder/organizations_founded': [{'a:name': 'Microsoft Research Asia'}]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  'result': [
+    {
+      '/visual_art/visual_artist/artworks': [{'a:name': 'Mona Lisa'}],
+      'type': '/visual_art/visual_artist',
+      'name': 'Leonardo da Vinci',
+      'id': '/en/leonardo_da_vinci'
+    },
+    {
+      '/visual_art/visual_artist/artworks': [{'a:name': 'Mona Lisa, Age Twelve'}],
+      'type': '/visual_art/visual_artist',
+      'name': 'Fernando Botero',
+      'id': '/en/fernando_botero'
+    },
+    {
+      '/visual_art/visual_artist/artworks': [{'a:name': "Mona Lisa's Chair"}],
+      'type': '/visual_art/visual_artist',
+      'name': 'Octavio Ocampo',
+      'id': '/en/octavio_ocampo'
+    },
+    {
+      '/visual_art/visual_artist/artworks': [
+        {'a:name': "Leonardo da Vinci and Mona Lisa on Holiday at Round Hill in Jamaica (They Came Tourist Class on Columbus's Second Voyage)"},
+        {'a:name': 'Mona Lisa Pasta'},
+        {'a:name': 'Leonardo da Vinci and Mona Lisa'},
+        {'a:name': 'Mona Lisa of Oval'}
+      ],
+      'type': '/visual_art/visual_artist',
+      'name': 'Jonathan Routh',
+      'id': '/en/jonathan_routh'
+    }
+  ]
+}

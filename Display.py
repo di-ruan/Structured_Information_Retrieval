@@ -26,6 +26,9 @@ test_list = [[1, 'Bill Gates(AUTHOR, BUSINESS_PERSON)'],
                                 ['Chief Executive', '', 'CTO'], 'Title', ['Chief Executive', 'COO', 'CFO'],
                                 'From-To', ['', '', '1975-04-04 - now']]]]
 
+answer_list = [['Bill Gates', 'Business Person', ['Microsoft Corporation', 'Microsoft Research']],
+               ['Di Ruan', 'Author', ['Amazon']],
+               ['Jie-gang Kuang', 'Business Person', ['VMWare', 'Computer Engineering']]]
 
 def padding_space(strlist, target_size):
     if target_size > len(strlist):
@@ -86,3 +89,7 @@ def draw_infobox(info_list):
             draw_items(item[1:])
         elif item[0] == 4:
             draw_table(item[1:])
+
+
+def draw_answer(author_answer, question):
+    print '-----'

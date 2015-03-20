@@ -40,11 +40,11 @@ def question(se, question):
     business_person_query = Answer.get_query(term, 'business_person')
     author_result = se.get_mql_result(author_query)
     business_person_result = se.get_mql_result(business_person_query)
-    author_answer = Answer.get_answer(author_result)
-    business_person_answer = Answer.get_answer(business_person_result)
+    author_answer = Answer.get_answer(author_result, 'author')
+    business_person_answer = Answer.get_answer(business_person_result, 'business_person')
     author_answer.extend(business_person_answer)
 
-    #Display.draw_answer(author_answer)
+    Display.draw_answer(author_answer, question)
 
 
 

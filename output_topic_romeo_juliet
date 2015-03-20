@@ -1,0 +1,2969 @@
+{
+    "id": "/m/06fsr",
+    "property": {
+        "/book/book/characters": {
+            "valuetype": "object",
+            "values": [
+                {
+                    "text": "Romeo",
+                    "lang": "en",
+                    "id": "/m/02qnhw1",
+                    "creator": "/user/iyella",
+                    "timestamp": "2012-03-10T15:04:20.000Z"
+                },
+                {
+                    "text": "Juliet",
+                    "lang": "en",
+                    "id": "/m/064vr0",
+                    "creator": "/user/iyella",
+                    "timestamp": "2012-03-10T15:04:20.000Z"
+                },
+                {
+                    "text": "Tybalt",
+                    "lang": "en",
+                    "id": "/m/039v2j",
+                    "creator": "/user/iyella",
+                    "timestamp": "2012-03-10T15:04:20.000Z"
+                },
+                {
+                    "text": "Mercutio",
+                    "lang": "en",
+                    "id": "/m/03g8r0",
+                    "creator": "/user/iyella",
+                    "timestamp": "2012-03-10T15:04:20.000Z"
+                },
+                {
+                    "text": "Count Paris",
+                    "lang": "en",
+                    "id": "/m/0b_5d8",
+                    "creator": "/user/nanette",
+                    "timestamp": "2012-07-20T03:46:34.000Z"
+                },
+                {
+                    "text": "Rosaline",
+                    "lang": "en",
+                    "id": "/m/02q_lb4",
+                    "creator": "/user/nanette",
+                    "timestamp": "2012-07-20T03:46:34.000Z"
+                },
+                {
+                    "text": "Benvolio",
+                    "lang": "en",
+                    "id": "/m/04kr_n",
+                    "creator": "/user/nanette",
+                    "timestamp": "2012-07-20T03:46:34.000Z"
+                },
+                {
+                    "text": "Nurse",
+                    "lang": "en",
+                    "id": "/m/02z39yd",
+                    "creator": "/user/nanette",
+                    "timestamp": "2012-07-20T03:46:35.000Z"
+                },
+                {
+                    "text": "Friar Laurence",
+                    "lang": "en",
+                    "id": "/m/0c3t_r",
+                    "creator": "/user/starbuckz",
+                    "timestamp": "2013-01-24T08:26:59.000Z"
+                },
+                {
+                    "text": "Prince Escalus",
+                    "lang": "en",
+                    "id": "/m/068x8r",
+                    "creator": "/user/starbuckz",
+                    "timestamp": "2013-01-28T00:10:42.000Z"
+                }
+            ],
+            "count": 21
+        },
+        "/book/book/editions": {
+            "valuetype": "object",
+            "values": [
+                {
+                    "text": "Romeo and Juliet a tragedy",
+                    "lang": "en",
+                    "id": "/m/0bbgmc1",
+                    "creator": "/user/book_bot",
+                    "timestamp": "2010-04-04T10:33:15.001Z"
+                },
+                {
+                    "text": "Romeo and Juliet",
+                    "lang": "en",
+                    "id": "/m/0bbgm90",
+                    "creator": "/user/book_bot",
+                    "timestamp": "2010-04-04T10:33:35.001Z"
+                },
+                {
+                    "text": "Romeo and Juliet",
+                    "lang": "en",
+                    "id": "/m/0bbjxq5",
+                    "creator": "/user/book_bot",
+                    "timestamp": "2010-04-04T10:38:21.000Z"
+                },
+                {
+                    "text": "Romeo and Juliet : a tragedy, in five acts",
+                    "lang": "en",
+                    "id": "/m/0bbjxl3",
+                    "creator": "/user/book_bot",
+                    "timestamp": "2010-04-04T10:40:10.000Z"
+                },
+                {
+                    "text": "Romeo and Juliet. A tragedy in five acts",
+                    "lang": "en",
+                    "id": "/m/0bbgvp3",
+                    "creator": "/user/book_bot",
+                    "timestamp": "2010-04-04T10:44:12.001Z"
+                },
+                {
+                    "text": "Romeo and Juliet; the text of the first folio, with quarto insertions",
+                    "lang": "en",
+                    "id": "/m/0bbhs5k",
+                    "creator": "/user/book_bot",
+                    "timestamp": "2010-04-04T10:54:32.000Z"
+                },
+                {
+                    "text": "Romeo and Juliet",
+                    "lang": "en",
+                    "id": "/m/0c5_fjg",
+                    "creator": "/user/book_bot",
+                    "timestamp": "2010-06-28T06:10:41.001Z"
+                },
+                {
+                    "text": "Romeo and Juliet. A tragedy in five acts",
+                    "lang": "en",
+                    "id": "/m/0c6ncsc",
+                    "creator": "/user/book_bot",
+                    "timestamp": "2010-06-29T04:15:30.000Z"
+                },
+                {
+                    "text": "Romeo and Juliet with alterations and an additional scene",
+                    "lang": "en",
+                    "id": "/m/0c6rjkx",
+                    "creator": "/user/book_bot",
+                    "timestamp": "2010-06-29T07:57:27.000Z"
+                },
+                {
+                    "text": "Romeo and Juliet",
+                    "lang": "en",
+                    "id": "/m/0c6rvqn",
+                    "creator": "/user/book_bot",
+                    "timestamp": "2010-06-29T08:19:45.000Z"
+                }
+            ],
+            "count": 54
+        },
+        "/book/book/genre": {
+            "valuetype": "object",
+            "values": [
+                {
+                    "text": "Play",
+                    "lang": "en",
+                    "id": "/m/05qp9",
+                    "creator": "/user/stefan_loska",
+                    "timestamp": "2012-11-23T23:18:43.000Z"
+                },
+                {
+                    "text": "Tragedy",
+                    "lang": "en",
+                    "id": "/m/0fx2s",
+                    "creator": "/user/fpmdisalvia",
+                    "timestamp": "2013-07-03T15:04:47.000Z"
+                }
+            ],
+            "count": 2
+        },
+        "/book/book/interior_illustrations_by": {
+            "valuetype": "object",
+            "values": [
+                {
+                    "text": "Frank Dicksee",
+                    "lang": "en",
+                    "id": "/m/0br7db",
+                    "creator": "/user/turtlewax_bot",
+                    "timestamp": "2013-08-08T04:07:30.000Z"
+                }
+            ],
+            "count": 1
+        },
+        "/book/written_work/author": {
+            "valuetype": "object",
+            "values": [
+                {
+                    "text": "William Shakespeare",
+                    "lang": "en",
+                    "id": "/m/081k8",
+                    "creator": "/user/ghiejapitana",
+                    "timestamp": "2012-02-09T19:40:27.000Z"
+                }
+            ],
+            "count": 1
+        },
+        "/book/written_work/date_of_first_publication": {
+            "valuetype": "datetime",
+            "values": [
+                {
+                    "text": "1597",
+                    "lang": "",
+                    "value": "1597",
+                    "creator": "/user/goddess888",
+                    "timestamp": "2012-12-29T08:40:39.000Z"
+                }
+            ],
+            "count": 1
+        },
+        "/book/written_work/original_language": {
+            "valuetype": "object",
+            "values": [
+                {
+                    "text": "English Language",
+                    "lang": "en",
+                    "id": "/m/02h40lc",
+                    "creator": "/user/stefan_loska",
+                    "timestamp": "2012-11-23T23:21:00.000Z"
+                }
+            ],
+            "count": 1
+        },
+        "/book/written_work/part_of_series": {
+            "valuetype": "object",
+            "values": [
+                {
+                    "text": "Shakespearean tragedy",
+                    "lang": "en",
+                    "id": "/m/09l5v",
+                    "creator": "/user/gmackenz",
+                    "timestamp": "2009-04-16T19:06:59.000Z"
+                }
+            ],
+            "count": 1
+        },
+        "/book/written_work/school_or_movement": {
+            "valuetype": "object",
+            "values": [
+                {
+                    "text": "English Renaissance theatre",
+                    "lang": "en",
+                    "id": "/m/09vyq",
+                    "creator": "/user/gmackenz",
+                    "timestamp": "2009-04-16T19:06:45.000Z"
+                }
+            ],
+            "count": 1
+        },
+        "/book/written_work/subjects": {
+            "valuetype": "object",
+            "values": [
+                {
+                    "text": "Star-crossed",
+                    "lang": "en",
+                    "id": "/m/0319yd",
+                    "creator": "/user/gmackenz",
+                    "timestamp": "2009-07-16T23:04:49.000Z"
+                },
+                {
+                    "text": "Popular literature",
+                    "lang": "en",
+                    "id": "/m/075nnwm",
+                    "creator": "/user/book_bot",
+                    "timestamp": "2010-04-12T23:38:01.000Z"
+                }
+            ],
+            "count": 2
+        },
+        "/common/topic/alias": {
+            "valuetype": "string",
+            "values": [
+                {
+                    "text": "ROMEO & JULIET",
+                    "lang": "en",
+                    "value": "ROMEO & JULIET",
+                    "creator": "/user/merge_bot",
+                    "timestamp": "2009-07-26T09:45:58.001Z"
+                },
+                {
+                    "text": "The tragedie of Romeo and Juliet",
+                    "lang": "en",
+                    "value": "The tragedie of Romeo and Juliet",
+                    "creator": "/user/turtlewax_bot",
+                    "timestamp": "2013-08-08T03:31:31.000Z"
+                },
+                {
+                    "text": "Shakespeare's tragedy of Romeo & Juliet",
+                    "lang": "en",
+                    "value": "Shakespeare's tragedy of Romeo & Juliet",
+                    "creator": "/user/turtlewax_bot",
+                    "timestamp": "2013-10-30T10:35:47.003Z"
+                },
+                {
+                    "text": "The tragedy of Romeo and Juliet",
+                    "lang": "en",
+                    "value": "The tragedy of Romeo and Juliet",
+                    "creator": "/user/turtlewax_bot",
+                    "timestamp": "2013-10-30T10:36:40.000Z"
+                },
+                {
+                    "text": "Romeo and Juliet, 1597",
+                    "lang": "en",
+                    "value": "Romeo and Juliet, 1597",
+                    "creator": "/user/turtlewax_bot",
+                    "timestamp": "2013-10-30T11:08:13.002Z"
+                },
+                {
+                    "text": "An excellent conceited tragedie of Romeo and Juliet",
+                    "lang": "en",
+                    "value": "An excellent conceited tragedie of Romeo and Juliet",
+                    "creator": "/user/fb_writeuser",
+                    "timestamp": "2014-04-30T21:53:36.000Z"
+                }
+            ],
+            "count": 16
+        },
+        "/common/topic/article": {
+            "valuetype": "compound",
+            "values": [
+                {
+                    "text": "Romeo and Juliet is a tragedy written early in the career of playwright William Shakespeare...",
+                    "lang": "en",
+                    "id": "/m/06ft1",
+                    "creator": "/user/mwcl_wikipedia_en",
+                    "timestamp": "2006-10-22T09:20:47.007Z",
+                    "property": {
+                        "/common/document/source_uri": {
+                            "valuetype": "uri",
+                            "values": [
+                                {
+                                    "text": "http://wp/en/25821",
+                                    "lang": "",
+                                    "value": "http://wp/en/25821",
+                                    "creator": "/user/mwcl_wikipedia_en",
+                                    "timestamp": "2006-10-22T09:20:47.006Z"
+                                }
+                            ],
+                            "count": 1
+                        },
+                        "/common/document/text": {
+                            "valuetype": "string",
+                            "values": [
+                                {
+                                    "text": "Romeo and Juliet is a tragedy written early in the career of playwright William Shakespeare...",
+                                    "lang": "en",
+                                    "value": "Romeo and Juliet is a tragedy written early in the career of playwright William Shakespeare about two young star-crossed lovers whose deaths ultimately unite their feuding families. It was among Shakespeare's most popular plays during his lifetime and, along with Hamlet, is one of his most frequently performed plays. Today, the title characters are regarded as archetypal young lovers.\nRomeo and Juliet belongs to a tradition of tragic romances stretching back to antiquity. Its plot is based on an Italian tale, translated into verse as The Tragical History of Romeus and Juliet by Arthur Brooke in 1562 and retold in prose in Palace of Pleasure by William Painter in 1582. Shakespeare borrowed heavily from both but, to expand the plot, developed supporting characters, particularly Mercutio and Paris. Believed written between 1591 and 1595, the play was first published in a quarto version in 1597. This text was of poor quality, and later editions corrected it, bringing it more in line with Shakespeare's original.\nShakespeare's use of dramatic structure, especially effects such as switching between comedy and tragedy to heighten tension, his expansion of minor characters, and his use of",
+                                    "creator": "/user/mwcl_wikipedia_en",
+                                    "timestamp": "2006-10-22T09:20:47.006Z"
+                                }
+                            ],
+                            "count": 1
+                        },
+                        "/type/object/attribution": {
+                            "valuetype": "object",
+                            "values": [
+                                {
+                                    "text": "Freebase Data Team",
+                                    "lang": "",
+                                    "id": "/m/0gs8",
+                                    "creator": "/user/mwcl_wikipedia_en",
+                                    "timestamp": "2006-10-22T09:20:47.006Z"
+                                }
+                            ],
+                            "count": 1
+                        },
+                        "/type/object/type": {
+                            "valuetype": "object",
+                            "values": [
+                                {
+                                    "text": "Document",
+                                    "lang": "",
+                                    "id": "/common/document",
+                                    "creator": "/user/mwcl_wikipedia_en",
+                                    "timestamp": "2006-10-22T09:20:47.006Z"
+                                }
+                            ],
+                            "count": 1
+                        }
+                    }
+                },
+                {
+                    "text": "Romeo and Juliet is a play by William Shakespeare.",
+                    "lang": "en",
+                    "id": "/m/0hmwl3r",
+                    "creator": "/user/merge_bot",
+                    "timestamp": "2013-03-15T02:21:29.000Z",
+                    "property": {
+                        "/common/document/content": {
+                            "valuetype": "object",
+                            "values": [
+                                {
+                                    "text": "/m/0hmwl3g",
+                                    "lang": "",
+                                    "id": "/m/0hmwl3g",
+                                    "creator": "/user/alden",
+                                    "timestamp": "2011-12-09T03:48:35.001Z"
+                                }
+                            ],
+                            "count": 1
+                        },
+                        "/common/document/text": {
+                            "valuetype": "string",
+                            "values": [
+                                {
+                                    "text": "Romeo and Juliet is a play by William Shakespeare.",
+                                    "lang": "en",
+                                    "value": "Romeo and Juliet is a play by William Shakespeare.",
+                                    "creator": "/user/content_administrator",
+                                    "timestamp": "2011-12-09T03:48:35.000Z"
+                                }
+                            ],
+                            "count": 1
+                        },
+                        "/common/document/updated": {
+                            "valuetype": "datetime",
+                            "values": [
+                                {
+                                    "text": "2011-12-09T03:48:35.622023Z",
+                                    "lang": "",
+                                    "value": "2011-12-09T03:48:35.622023Z",
+                                    "creator": "/user/alden",
+                                    "timestamp": "2011-12-09T03:48:35.001Z"
+                                }
+                            ],
+                            "count": 1
+                        },
+                        "/type/object/attribution": {
+                            "valuetype": "object",
+                            "values": [
+                                {
+                                    "text": "alden",
+                                    "lang": "",
+                                    "id": "/m/04c6389",
+                                    "creator": "/user/alden",
+                                    "timestamp": "2011-12-09T03:48:35.000Z"
+                                }
+                            ],
+                            "count": 1
+                        },
+                        "/type/object/type": {
+                            "valuetype": "object",
+                            "values": [
+                                {
+                                    "text": "Document",
+                                    "lang": "",
+                                    "id": "/common/document",
+                                    "creator": "/user/alden",
+                                    "timestamp": "2011-12-09T03:48:35.001Z"
+                                }
+                            ],
+                            "count": 1
+                        }
+                    }
+                }
+            ],
+            "count": 2
+        },
+        "/common/topic/description": {
+            "valuetype": "string",
+            "values": [
+                {
+                    "text": "Romeo and Juliet is a play by William Shakespeare.",
+                    "lang": "en",
+                    "value": "Romeo and Juliet is a play by William Shakespeare.",
+                    "creator": "/user/merge_bot",
+                    "timestamp": "2013-03-15T02:21:28.001Z"
+                },
+                {
+                    "text": "Romeo and Juliet is a tragedy written by William Shakespeare early in his career about two young...",
+                    "lang": "en",
+                    "value": "Romeo and Juliet is a tragedy written by William Shakespeare early in his career about two young star-crossed lovers whose deaths ultimately reconcile their feuding families. It was among Shakespeare's most popular plays during his lifetime and, along with Hamlet, is one of his most frequently performed plays. Today, the title characters are regarded as archetypal young lovers.\nRomeo and Juliet belongs to a tradition of tragic romances stretching back to antiquity. Its plot is based on an Italian tale, translated into verse as The Tragical History of Romeus and Juliet by Arthur Brooke in 1562 and retold in prose in Palace of Pleasure by William Painter in 1567. Shakespeare borrowed heavily from both but, to expand the plot, developed supporting characters, particularly Mercutio and Paris. Believed to have been written between 1591 and 1595, the play was first published in a quarto version in 1597. This text was of poor quality, and later editions corrected it, bringing it more in line with Shakespeare's original.",
+                    "creator": "/user/wikirecon_bot"
+                }
+            ],
+            "count": 42
+        },
+        "/common/topic/image": {
+            "valuetype": "object",
+            "values": [
+                {
+                    "text": "Title page of the Second Quarto (published 1599)",
+                    "lang": "en",
+                    "id": "/m/02bhvkf",
+                    "creator": "/user/mwcl_images",
+                    "timestamp": "2007-04-15T20:47:34.002Z"
+                },
+                {
+                    "text": "Romeo and juliet brown",
+                    "lang": "en",
+                    "id": "/m/02bh6q7",
+                    "creator": "/user/mwcl_images",
+                    "timestamp": "2008-03-14T02:42:16.001Z"
+                }
+            ],
+            "count": 2
+        },
+        "/common/topic/notable_for": {
+            "valuetype": "object",
+            "values": [
+                {
+                    "text": "Play",
+                    "lang": "en",
+                    "id": ""
+                }
+            ],
+            "count": 1
+        },
+        "/common/topic/notable_types": {
+            "valuetype": "object",
+            "values": [
+                {
+                    "text": "Play",
+                    "lang": "en",
+                    "id": "/theater/play"
+                }
+            ],
+            "count": 1
+        },
+        "/common/topic/topic_equivalent_webpage": {
+            "valuetype": "uri",
+            "values": [
+                {
+                    "text": "http://en.wikipedia.org/wiki/index.html?curid=25821",
+                    "lang": "",
+                    "value": "http://en.wikipedia.org/wiki/index.html?curid=25821",
+                    "creator": "/user/metaweb",
+                    "timestamp": "2006-10-22T09:20:47.005Z"
+                },
+                {
+                    "text": "http://fr.wikipedia.org/wiki/index.html?curid=1281056",
+                    "lang": "",
+                    "value": "http://fr.wikipedia.org/wiki/index.html?curid=1281056",
+                    "creator": "/user/wikipedia_intl",
+                    "timestamp": "2010-09-29T06:25:27.000Z"
+                },
+                {
+                    "text": "http://pt.wikipedia.org/wiki/index.html?curid=123077",
+                    "lang": "",
+                    "value": "http://pt.wikipedia.org/wiki/index.html?curid=123077",
+                    "creator": "/user/wikipedia_intl",
+                    "timestamp": "2010-09-29T09:35:50.000Z"
+                },
+                {
+                    "text": "http://de.wikipedia.org/wiki/Romeo_und_Julia",
+                    "lang": "",
+                    "value": "http://de.wikipedia.org/wiki/Romeo_und_Julia",
+                    "creator": "/user/wikipedia_intl",
+                    "timestamp": "2011-05-21T17:32:46.000Z"
+                },
+                {
+                    "text": "http://fr.wikipedia.org/wiki/Roméo_et_Juliette",
+                    "lang": "",
+                    "value": "http://fr.wikipedia.org/wiki/Roméo_et_Juliette",
+                    "creator": "/user/wikipedia_intl",
+                    "timestamp": "2011-05-22T09:54:32.001Z"
+                },
+                {
+                    "text": "http://ja.wikipedia.org/wiki/ロミオとジュリエット",
+                    "lang": "",
+                    "value": "http://ja.wikipedia.org/wiki/ロミオとジュリエット",
+                    "creator": "/user/wikipedia_intl",
+                    "timestamp": "2011-05-22T11:29:36.000Z"
+                },
+                {
+                    "text": "http://bg.wikipedia.org/wiki/Ромео_и_Жулиета",
+                    "lang": "",
+                    "value": "http://bg.wikipedia.org/wiki/Ромео_и_Жулиета",
+                    "creator": "/user/wikipedia_intl",
+                    "timestamp": "2011-05-23T04:05:25.000Z"
+                },
+                {
+                    "text": "http://zh.wikipedia.org/zh-tw/罗密欧与朱丽叶",
+                    "lang": "",
+                    "value": "http://zh.wikipedia.org/zh-tw/罗密欧与朱丽叶",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:23:30.001Z"
+                },
+                {
+                    "text": "http://sv.wikipedia.org/wiki/index.html?curid=42798",
+                    "lang": "",
+                    "value": "http://sv.wikipedia.org/wiki/index.html?curid=42798",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:24:16.000Z"
+                },
+                {
+                    "text": "http://ko.wikipedia.org/wiki/index.html?curid=133420",
+                    "lang": "",
+                    "value": "http://ko.wikipedia.org/wiki/index.html?curid=133420",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:24:17.000Z"
+                }
+            ],
+            "count": 105
+        },
+        "/common/topic/topical_webpage": {
+            "valuetype": "uri",
+            "values": [
+                {
+                    "text": "http://www.enotes.com/topics/romeo-and-juliet",
+                    "lang": "",
+                    "value": "http://www.enotes.com/topics/romeo-and-juliet",
+                    "creator": "/user/brandih",
+                    "timestamp": "2014-06-19T21:30:43.000Z"
+                }
+            ],
+            "count": 1
+        },
+        "/film/film_subject/films": {
+            "valuetype": "object",
+            "values": [
+                {
+                    "text": "My Shakespeare: Romeo & Juliet for a New Generation",
+                    "lang": "en",
+                    "id": "/m/0h2nvx5",
+                    "creator": "/user/gmackenz",
+                    "timestamp": "2012-04-09T20:39:59.000Z"
+                },
+                {
+                    "text": "Romeo & Juliet: The Tragic Lovers",
+                    "lang": "en",
+                    "id": "/m/0cs0ff2",
+                    "creator": "/user/stefan_loska",
+                    "timestamp": "2012-11-23T23:31:05.000Z"
+                },
+                {
+                    "text": "Rocketbook: Romeo & Juliet",
+                    "lang": "en",
+                    "id": "/m/0crsnx0",
+                    "creator": "/user/stefan_loska",
+                    "timestamp": "2012-11-23T23:31:14.000Z"
+                }
+            ],
+            "count": 3
+        },
+        "/media_common/adaptation/adapted_from": {
+            "valuetype": "object",
+            "values": [
+                {
+                    "text": "The Tragical History of Romeus and Juliet",
+                    "lang": "en",
+                    "id": "/m/0c3qm_",
+                    "creator": "/user/hailey2009",
+                    "timestamp": "2010-12-11T19:35:37.000Z"
+                }
+            ],
+            "count": 1
+        },
+        "/media_common/adapted_work/adaptations": {
+            "valuetype": "object",
+            "values": [
+                {
+                    "text": "I Capuleti e i Montecchi",
+                    "lang": "en",
+                    "id": "/m/08p465",
+                    "creator": "/user/carmenmfenn1",
+                    "timestamp": "2008-10-03T13:24:34.000Z"
+                },
+                {
+                    "text": "Giulietta e Romeo",
+                    "lang": "en",
+                    "id": "/m/04ll11w",
+                    "creator": "/user/carmenmfenn1",
+                    "timestamp": "2008-10-03T13:28:31.000Z"
+                },
+                {
+                    "text": "Romeo und Julie",
+                    "lang": "en",
+                    "id": "/m/047fpvk",
+                    "creator": "/user/carmenmfenn1",
+                    "timestamp": "2008-10-04T08:06:20.000Z"
+                },
+                {
+                    "text": "Giulietta e Romeo",
+                    "lang": "en",
+                    "id": "/m/02wx2_6",
+                    "creator": "/user/carmenmfenn1",
+                    "timestamp": "2008-10-03T13:24:34.000Z"
+                },
+                {
+                    "text": "Giulietta e Romeo",
+                    "lang": "en",
+                    "id": "/m/04gt31k",
+                    "creator": "/user/carmenmfenn1",
+                    "timestamp": "2008-10-03T13:24:34.000Z"
+                },
+                {
+                    "text": "Romeo Must Die",
+                    "lang": "en",
+                    "id": "/m/041cpw",
+                    "creator": "/user/robert",
+                    "timestamp": "2007-02-22T08:04:25.000Z"
+                },
+                {
+                    "text": "Tromeo & Juliet",
+                    "lang": "en",
+                    "id": "/m/0qf0q",
+                    "creator": "/user/robert",
+                    "timestamp": "2007-02-22T08:05:39.000Z"
+                },
+                {
+                    "text": "Romie-0 and Julie-8",
+                    "lang": "en",
+                    "id": "/m/0kvfgd",
+                    "creator": "/user/robert",
+                    "timestamp": "2007-02-22T08:06:28.000Z"
+                },
+                {
+                    "text": "Romeo + Juliet",
+                    "lang": "en",
+                    "id": "/m/01cssf",
+                    "creator": "/user/faye",
+                    "timestamp": "2008-01-15T21:03:41.000Z"
+                },
+                {
+                    "text": "Romeo and Juliet",
+                    "lang": "en",
+                    "id": "/m/0p9rz",
+                    "creator": "/user/faye",
+                    "timestamp": "2008-01-15T21:04:19.000Z"
+                }
+            ],
+            "count": 83
+        },
+        "/media_common/quotation_source/quotations": {
+            "valuetype": "object",
+            "values": [
+                {
+                    "text": "These violent delights have violent ends...",
+                    "lang": "en",
+                    "id": "/m/05kkg_p",
+                    "creator": "/user/jon",
+                    "timestamp": "2009-03-10T23:30:29.001Z"
+                },
+                {
+                    "text": "He jests at scars that never felt a wound.",
+                    "lang": "en",
+                    "id": "/m/048bx62",
+                    "creator": "/user/krsalis",
+                    "timestamp": "2010-10-14T04:29:09.001Z"
+                },
+                {
+                    "text": "If love be blind, love cannot hit the mark.",
+                    "lang": "en",
+                    "id": "/m/0dhnv3f",
+                    "creator": "/user/krsalis",
+                    "timestamp": "2010-10-14T04:45:06.002Z"
+                }
+            ],
+            "count": 3
+        },
+        "/theater/play/characters": {
+            "valuetype": "object",
+            "values": [
+                {
+                    "text": "Benvolio",
+                    "lang": "en",
+                    "id": "/m/04kr_n",
+                    "creator": "/user/ghiejapitana",
+                    "timestamp": "2012-02-09T20:05:00.000Z"
+                },
+                {
+                    "text": "Juliet",
+                    "lang": "en",
+                    "id": "/m/064vr0",
+                    "creator": "/user/ghiejapitana",
+                    "timestamp": "2012-02-09T20:05:00.000Z"
+                },
+                {
+                    "text": "Friar Laurence",
+                    "lang": "en",
+                    "id": "/m/0c3t_r",
+                    "creator": "/user/ghiejapitana",
+                    "timestamp": "2012-02-09T20:05:00.000Z"
+                },
+                {
+                    "text": "Lady Capulet",
+                    "lang": "en",
+                    "id": "/m/05kcbzb",
+                    "creator": "/user/ghiejapitana",
+                    "timestamp": "2012-02-09T20:05:00.000Z"
+                },
+                {
+                    "text": "Mercutio",
+                    "lang": "en",
+                    "id": "/m/03g8r0",
+                    "creator": "/user/ghiejapitana",
+                    "timestamp": "2012-02-09T20:05:00.000Z"
+                },
+                {
+                    "text": "Nurse",
+                    "lang": "en",
+                    "id": "/m/02z39yd",
+                    "creator": "/user/ghiejapitana",
+                    "timestamp": "2012-02-09T20:05:00.000Z"
+                },
+                {
+                    "text": "Romeo",
+                    "lang": "en",
+                    "id": "/m/02qnhw1",
+                    "creator": "/user/ghiejapitana",
+                    "timestamp": "2012-02-09T20:05:00.000Z"
+                },
+                {
+                    "text": "Count Paris",
+                    "lang": "en",
+                    "id": "/m/0b_5d8",
+                    "creator": "/user/ghiejapitana",
+                    "timestamp": "2012-02-09T20:05:00.000Z"
+                },
+                {
+                    "text": "Prince Escalus",
+                    "lang": "en",
+                    "id": "/m/068x8r",
+                    "creator": "/user/ghiejapitana",
+                    "timestamp": "2012-02-09T20:05:00.000Z"
+                },
+                {
+                    "text": "Lord Montague",
+                    "lang": "en",
+                    "id": "/m/05ss4jm",
+                    "creator": "/user/ghiejapitana",
+                    "timestamp": "2012-02-09T20:05:00.001Z"
+                }
+            ],
+            "count": 14
+        },
+        "/theater/play/country_of_origin": {
+            "valuetype": "object",
+            "values": [
+                {
+                    "text": "England",
+                    "lang": "en",
+                    "id": "/m/02jx1",
+                    "creator": "/user/dianab_taeza",
+                    "timestamp": "2012-08-04T13:40:14.000Z"
+                }
+            ],
+            "count": 1
+        },
+        "/theater/play/date_of_first_performance": {
+            "values": [],
+            "count": 0,
+            "status": "has_value"
+        },
+        "/theater/play/genre": {
+            "valuetype": "object",
+            "values": [
+                {
+                    "text": "Tragedy",
+                    "lang": "en",
+                    "id": "/m/0fx2s",
+                    "creator": "/user/stefan_loska",
+                    "timestamp": "2012-11-23T23:27:04.000Z"
+                }
+            ],
+            "count": 1
+        },
+        "/theater/play/lyricist": {
+            "valuetype": "object",
+            "values": [
+                {
+                    "text": "William Shakespeare",
+                    "lang": "en",
+                    "id": "/m/081k8",
+                    "creator": "/user/dsinclair",
+                    "timestamp": "2009-11-29T20:33:01.000Z"
+                }
+            ],
+            "count": 1
+        },
+        "/theater/play/orchestrator": {
+            "values": [],
+            "count": 0,
+            "status": "has_value"
+        },
+        "/theater/play/playwright": {
+            "valuetype": "object",
+            "values": [
+                {
+                    "text": "William Shakespeare",
+                    "lang": "en",
+                    "id": "/m/081k8",
+                    "creator": "/user/ghiejapitana",
+                    "timestamp": "2012-02-09T19:40:27.000Z"
+                }
+            ],
+            "count": 1
+        },
+        "/theater/play/productions": {
+            "valuetype": "object",
+            "values": [
+                {
+                    "text": "Romeo and Juliet",
+                    "lang": "en",
+                    "id": "/m/0b_wp3d",
+                    "creator": "/user/merge_bot",
+                    "timestamp": "2013-03-15T02:21:31.002Z"
+                },
+                {
+                    "text": "Romeo and Juliet",
+                    "lang": "en",
+                    "id": "/m/0xnclvn",
+                    "creator": "/user/marivi",
+                    "timestamp": "2013-10-02T10:15:45.000Z"
+                },
+                {
+                    "text": "Romeo And Juliet",
+                    "lang": "en",
+                    "id": "/m/0yxcjvx",
+                    "creator": "/user/aurokanti",
+                    "timestamp": "2013-11-08T17:01:19.000Z"
+                },
+                {
+                    "text": "Romeo and Juliet",
+                    "lang": "en",
+                    "id": "/m/0zbj96t",
+                    "creator": "/user/jkatigbac",
+                    "timestamp": "2013-11-24T01:50:33.000Z"
+                },
+                {
+                    "text": "Romeo and Juliet",
+                    "lang": "en",
+                    "id": "/m/0zfxgqs",
+                    "creator": "/user/angelinelopez",
+                    "timestamp": "2013-12-08T07:36:15.000Z"
+                },
+                {
+                    "text": "Romeo and Juliet",
+                    "lang": "en",
+                    "id": "/m/0zgzm92",
+                    "creator": "/user/ronalddavid",
+                    "timestamp": "2013-12-13T00:31:34.000Z"
+                },
+                {
+                    "text": "Romeo and Juliet",
+                    "lang": "en",
+                    "id": "/m/0zsw79_",
+                    "creator": "/user/anyzy",
+                    "timestamp": "2013-12-27T15:54:27.001Z"
+                },
+                {
+                    "text": "Romeo and Juliet",
+                    "lang": "en",
+                    "id": "/m/0zy1skz",
+                    "creator": "/user/innap",
+                    "timestamp": "2014-01-09T09:38:16.001Z"
+                },
+                {
+                    "text": "Romeo & Juliet",
+                    "lang": "en",
+                    "id": "/m/0_fzkm4",
+                    "creator": "/user/cvirtudes",
+                    "timestamp": "2014-01-28T06:11:29.000Z"
+                }
+            ],
+            "count": 9
+        },
+        "/theater/play/soundtracks": {
+            "values": [],
+            "count": 0,
+            "status": "has_value"
+        },
+        "/type/object/attribution": {
+            "valuetype": "object",
+            "values": [
+                {
+                    "text": "ashryanfb",
+                    "lang": "en",
+                    "id": "/m/0j82kcc",
+                    "creator": "/user/ashryanfb",
+                    "timestamp": "2012-09-02T09:30:51.001Z"
+                }
+            ],
+            "count": 1
+        },
+        "/type/object/key": {
+            "valuetype": "key",
+            "values": [
+                {
+                    "text": "/wikipedia/en_id/25821",
+                    "lang": "",
+                    "value": "/wikipedia/en_id/25821",
+                    "creator": "/user/metaweb",
+                    "timestamp": "2006-10-22T09:20:47.005Z"
+                },
+                {
+                    "text": "/en/romeo_and_juliet",
+                    "lang": "",
+                    "value": "/en/romeo_and_juliet",
+                    "creator": "/user/topicns_loader",
+                    "timestamp": "2007-08-13T08:09:28.001Z"
+                },
+                {
+                    "text": "/authority/openlibrary/book/romeojul_9202a8c04000641f800000000bb64075",
+                    "lang": "",
+                    "value": "/authority/openlibrary/book/romeojul_9202a8c04000641f800000000bb64075",
+                    "creator": "/user/merge_bot",
+                    "timestamp": "2009-07-26T09:45:58.001Z"
+                },
+                {
+                    "text": "/authority/openlibrary/book/romeoand_9202a8c04000641f800000000ba5deff",
+                    "lang": "",
+                    "value": "/authority/openlibrary/book/romeoand_9202a8c04000641f800000000ba5deff",
+                    "creator": "/user/merge_bot",
+                    "timestamp": "2009-07-28T10:04:38.000Z"
+                },
+                {
+                    "text": "/user/avh/ellerdale/0099-97b8",
+                    "lang": "",
+                    "value": "/user/avh/ellerdale/0099-97b8",
+                    "creator": "/user/avh",
+                    "timestamp": "2009-12-07T23:38:54.001Z"
+                },
+                {
+                    "text": "/wikipedia/bg/$0420$043E$043C$0435$043E_$0438_$0416$0443$043B$0438$0435$0442$0430",
+                    "lang": "",
+                    "value": "/wikipedia/bg/$0420$043E$043C$0435$043E_$0438_$0416$0443$043B$0438$0435$0442$0430",
+                    "creator": "/user/wikipedia_intl",
+                    "timestamp": "2010-09-23T07:34:22.000Z"
+                },
+                {
+                    "text": "/wikipedia/pt/Romeu_e_Julieta",
+                    "lang": "",
+                    "value": "/wikipedia/pt/Romeu_e_Julieta",
+                    "creator": "/user/wikipedia_intl",
+                    "timestamp": "2010-09-24T09:49:14.000Z"
+                },
+                {
+                    "text": "/wikipedia/ja/$30ED$30DF$30AA$3068$30B8$30E5$30EA$30A8$30C3$30C8",
+                    "lang": "",
+                    "value": "/wikipedia/ja/$30ED$30DF$30AA$3068$30B8$30E5$30EA$30A8$30C3$30C8",
+                    "creator": "/user/wikipedia_intl",
+                    "timestamp": "2010-09-26T22:54:58.000Z"
+                },
+                {
+                    "text": "/wikipedia/ja_id/28783",
+                    "lang": "",
+                    "value": "/wikipedia/ja_id/28783",
+                    "creator": "/user/wikipedia_intl",
+                    "timestamp": "2010-09-27T17:31:26.000Z"
+                },
+                {
+                    "text": "/wikipedia/fr_id/1281056",
+                    "lang": "",
+                    "value": "/wikipedia/fr_id/1281056",
+                    "creator": "/user/wikipedia_intl",
+                    "timestamp": "2010-09-29T06:25:27.000Z"
+                },
+                {
+                    "text": "/wikipedia/pt_id/123077",
+                    "lang": "",
+                    "value": "/wikipedia/pt_id/123077",
+                    "creator": "/user/wikipedia_intl",
+                    "timestamp": "2010-09-29T09:35:50.000Z"
+                },
+                {
+                    "text": "/wikipedia/de_title/Romeo_und_Julia",
+                    "lang": "",
+                    "value": "/wikipedia/de_title/Romeo_und_Julia",
+                    "creator": "/user/wikipedia_intl",
+                    "timestamp": "2011-05-21T17:32:46.000Z"
+                },
+                {
+                    "text": "/wikipedia/fr_title/Rom$00E9o_et_Juliette",
+                    "lang": "",
+                    "value": "/wikipedia/fr_title/Rom$00E9o_et_Juliette",
+                    "creator": "/user/wikipedia_intl",
+                    "timestamp": "2011-05-22T09:54:32.001Z"
+                },
+                {
+                    "text": "/wikipedia/ja_title/$30ED$30DF$30AA$3068$30B8$30E5$30EA$30A8$30C3$30C8",
+                    "lang": "",
+                    "value": "/wikipedia/ja_title/$30ED$30DF$30AA$3068$30B8$30E5$30EA$30A8$30C3$30C8",
+                    "creator": "/user/wikipedia_intl",
+                    "timestamp": "2011-05-22T11:29:36.000Z"
+                },
+                {
+                    "text": "/wikipedia/tr/Romeo_ve_J$00FCliyet",
+                    "lang": "",
+                    "value": "/wikipedia/tr/Romeo_ve_J$00FCliyet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:23:06.000Z"
+                },
+                {
+                    "text": "/wikipedia/fi_title/Romeo_ja_Julia",
+                    "lang": "",
+                    "value": "/wikipedia/fi_title/Romeo_ja_Julia",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:23:08.000Z"
+                },
+                {
+                    "text": "/wikipedia/el/$03A1$03C9$03BC$03B1$03AF$03BF$03C2_$03BA$03B1$03B9_$0399$03BF$03C5$03BB$03B9$03AD$03C4$03B1",
+                    "lang": "",
+                    "value": "/wikipedia/el/$03A1$03C9$03BC$03B1$03AF$03BF$03C2_$03BA$03B1$03B9_$0399$03BF$03C5$03BB$03B9$03AD$03C4$03B1",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:23:21.000Z"
+                },
+                {
+                    "text": "/wikipedia/sv_id/42798",
+                    "lang": "",
+                    "value": "/wikipedia/sv_id/42798",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:24:16.000Z"
+                },
+                {
+                    "text": "/wikipedia/tr/Romeo_ile_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/tr/Romeo_ile_Juliet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:24:17.000Z"
+                },
+                {
+                    "text": "/wikipedia/ko_id/133420",
+                    "lang": "",
+                    "value": "/wikipedia/ko_id/133420",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:24:17.000Z"
+                },
+                {
+                    "text": "/wikipedia/id/Romeo_dan_julia",
+                    "lang": "",
+                    "value": "/wikipedia/id/Romeo_dan_julia",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:24:52.000Z"
+                },
+                {
+                    "text": "/wikipedia/lv/Romeo_and_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/lv/Romeo_and_Juliet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:25:07.000Z"
+                },
+                {
+                    "text": "/wikipedia/th/$0E42$0E23$0E40$0E21$0E42$0E2D$0E41$0E25$0E30$0E08$0E39$0E40$0E25$0E35$0E22$0E15",
+                    "lang": "",
+                    "value": "/wikipedia/th/$0E42$0E23$0E40$0E21$0E42$0E2D$0E41$0E25$0E30$0E08$0E39$0E40$0E25$0E35$0E22$0E15",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:25:37.000Z"
+                },
+                {
+                    "text": "/wikipedia/lv_id/147276",
+                    "lang": "",
+                    "value": "/wikipedia/lv_id/147276",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:26:23.000Z"
+                },
+                {
+                    "text": "/wikipedia/tr/Romeo_ve_Juliet$0028oyun$0029",
+                    "lang": "",
+                    "value": "/wikipedia/tr/Romeo_ve_Juliet$0028oyun$0029",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:26:45.001Z"
+                },
+                {
+                    "text": "/wikipedia/sv/Romeo_och_Julia_$0028pj$00E4s$0029",
+                    "lang": "",
+                    "value": "/wikipedia/sv/Romeo_och_Julia_$0028pj$00E4s$0029",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:27:08.000Z"
+                },
+                {
+                    "text": "/wikipedia/th/$0E42$0E23$0E21$0E35$0E42$0E2D$0E41$0E25$0E30$0E08$0E39$0E40$0E25$0E35$0E22$0E15",
+                    "lang": "",
+                    "value": "/wikipedia/th/$0E42$0E23$0E21$0E35$0E42$0E2D$0E41$0E25$0E30$0E08$0E39$0E40$0E25$0E35$0E22$0E15",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:27:12.000Z"
+                },
+                {
+                    "text": "/wikipedia/tr/Romeo_ile_J$00FCliyet",
+                    "lang": "",
+                    "value": "/wikipedia/tr/Romeo_ile_J$00FCliyet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:27:24.000Z"
+                },
+                {
+                    "text": "/wikipedia/id/Romeo_dan_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/id/Romeo_dan_Juliet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:27:32.000Z"
+                },
+                {
+                    "text": "/wikipedia/uk/$0420$043E$043C$0435$043E_$0456_$0414$0436$0443$043B$044C$0454$0442$0430",
+                    "lang": "",
+                    "value": "/wikipedia/uk/$0420$043E$043C$0435$043E_$0456_$0414$0436$0443$043B$044C$0454$0442$0430",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:27:34.000Z"
+                },
+                {
+                    "text": "/wikipedia/tr/Romeo$0027yla_J$00FCliyet",
+                    "lang": "",
+                    "value": "/wikipedia/tr/Romeo$0027yla_J$00FCliyet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:27:46.000Z"
+                },
+                {
+                    "text": "/wikipedia/hr/Romeo_i_Julija",
+                    "lang": "",
+                    "value": "/wikipedia/hr/Romeo_i_Julija",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:27:51.000Z"
+                },
+                {
+                    "text": "/wikipedia/ja/$30ED$30E1$30AA$3068$30B8$30E5$30EA$30A8$30C3$30BF",
+                    "lang": "",
+                    "value": "/wikipedia/ja/$30ED$30E1$30AA$3068$30B8$30E5$30EA$30A8$30C3$30BF",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:27:55.000Z"
+                },
+                {
+                    "text": "/wikipedia/hu_title/R$00F3me$00F3_$00E9s_J$00FAlia",
+                    "lang": "",
+                    "value": "/wikipedia/hu_title/R$00F3me$00F3_$00E9s_J$00FAlia",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:28:05.000Z"
+                },
+                {
+                    "text": "/wikipedia/hr_title/Romeo_i_Julija",
+                    "lang": "",
+                    "value": "/wikipedia/hr_title/Romeo_i_Julija",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:28:07.000Z"
+                },
+                {
+                    "text": "/wikipedia/th/$0E42$0E23$0E40$0E21$0E42$0E2D$0E08$0E39$0E40$0E25$0E35$0E22$0E15",
+                    "lang": "",
+                    "value": "/wikipedia/th/$0E42$0E23$0E40$0E21$0E42$0E2D$0E08$0E39$0E40$0E25$0E35$0E22$0E15",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:28:12.000Z"
+                },
+                {
+                    "text": "/wikipedia/zh-tw/$7F85$5BC6$6B50$8207$6731$9E97$8449",
+                    "lang": "",
+                    "value": "/wikipedia/zh-tw/$7F85$5BC6$6B50$8207$6731$9E97$8449",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:28:29.000Z"
+                },
+                {
+                    "text": "/wikipedia/lv_title/Romeo_un_D$017Euljeta",
+                    "lang": "",
+                    "value": "/wikipedia/lv_title/Romeo_un_D$017Euljeta",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:29:01.000Z"
+                },
+                {
+                    "text": "/wikipedia/fi/Romeo_ja_Julia",
+                    "lang": "",
+                    "value": "/wikipedia/fi/Romeo_ja_Julia",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:29:05.000Z"
+                },
+                {
+                    "text": "/wikipedia/th/$0E42$0E23$0E21$0E34$0E42$0E2D$0E41$0E2D$0E19$0E08$0E39$0E40$0E25$0E35$0E22$0E15",
+                    "lang": "",
+                    "value": "/wikipedia/th/$0E42$0E23$0E21$0E34$0E42$0E2D$0E41$0E2D$0E19$0E08$0E39$0E40$0E25$0E35$0E22$0E15",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:29:26.000Z"
+                },
+                {
+                    "text": "/wikipedia/id/Romeo_and_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/id/Romeo_and_Juliet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:29:36.000Z"
+                },
+                {
+                    "text": "/wikipedia/id/Romeo_dan_Julia",
+                    "lang": "",
+                    "value": "/wikipedia/id/Romeo_dan_Julia",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:29:44.000Z"
+                },
+                {
+                    "text": "/wikipedia/ro/Romeo_$0219i_Julieta",
+                    "lang": "",
+                    "value": "/wikipedia/ro/Romeo_$0219i_Julieta",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:29:48.000Z"
+                },
+                {
+                    "text": "/wikipedia/tr/Romeo_ve_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/tr/Romeo_ve_Juliet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:30:06.000Z"
+                },
+                {
+                    "text": "/wikipedia/th_title/$0E42$0E23$0E40$0E21$0E42$0E2D$0E41$0E25$0E30$0E08$0E39$0E40$0E25$0E35$0E22$0E15",
+                    "lang": "",
+                    "value": "/wikipedia/th_title/$0E42$0E23$0E40$0E21$0E42$0E2D$0E41$0E25$0E30$0E08$0E39$0E40$0E25$0E35$0E22$0E15",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:30:24.000Z"
+                },
+                {
+                    "text": "/wikipedia/ar/$0631$0648$0645$064A$0648_$0648_$062C$0648$0644$064A$064A$062A",
+                    "lang": "",
+                    "value": "/wikipedia/ar/$0631$0648$0645$064A$0648_$0648_$062C$0648$0644$064A$064A$062A",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:30:32.001Z"
+                },
+                {
+                    "text": "/wikipedia/sl/Romeo_in_Julija",
+                    "lang": "",
+                    "value": "/wikipedia/sl/Romeo_in_Julija",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:30:35.000Z"
+                },
+                {
+                    "text": "/wikipedia/nl/Romeo_en_Julia",
+                    "lang": "",
+                    "value": "/wikipedia/nl/Romeo_en_Julia",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:31:10.000Z"
+                },
+                {
+                    "text": "/wikipedia/fr/Giulietta_Capuleti",
+                    "lang": "",
+                    "value": "/wikipedia/fr/Giulietta_Capuleti",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:31:38.000Z"
+                },
+                {
+                    "text": "/wikipedia/sl_title/Romeo_in_Julija",
+                    "lang": "",
+                    "value": "/wikipedia/sl_title/Romeo_in_Julija",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:31:44.000Z"
+                },
+                {
+                    "text": "/wikipedia/ca_id/11305",
+                    "lang": "",
+                    "value": "/wikipedia/ca_id/11305",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:31:45.000Z"
+                },
+                {
+                    "text": "/wikipedia/th_id/157498",
+                    "lang": "",
+                    "value": "/wikipedia/th_id/157498",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:31:50.000Z"
+                },
+                {
+                    "text": "/wikipedia/fa_id/140753",
+                    "lang": "",
+                    "value": "/wikipedia/fa_id/140753",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:32:36.000Z"
+                },
+                {
+                    "text": "/wikipedia/ro/Romeo_$015Fi_Julieta",
+                    "lang": "",
+                    "value": "/wikipedia/ro/Romeo_$015Fi_Julieta",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:33:21.000Z"
+                },
+                {
+                    "text": "/wikipedia/ro_title/Romeo_$0219i_Julieta",
+                    "lang": "",
+                    "value": "/wikipedia/ro_title/Romeo_$0219i_Julieta",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:33:38.000Z"
+                },
+                {
+                    "text": "/wikipedia/el_id/62256",
+                    "lang": "",
+                    "value": "/wikipedia/el_id/62256",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:33:48.000Z"
+                },
+                {
+                    "text": "/wikipedia/tr_id/205083",
+                    "lang": "",
+                    "value": "/wikipedia/tr_id/205083",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:33:59.000Z"
+                },
+                {
+                    "text": "/wikipedia/th/$0E42$0E23$0E21$0E34$0E42$0E2D$0E41$0E25$0E30$0E08$0E39$0E40$0E25$0E35$0E22$0E15",
+                    "lang": "",
+                    "value": "/wikipedia/th/$0E42$0E23$0E21$0E34$0E42$0E2D$0E41$0E25$0E30$0E08$0E39$0E40$0E25$0E35$0E22$0E15",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:34:10.000Z"
+                },
+                {
+                    "text": "/wikipedia/sk/R$00F3meo_a_J$00FAlia",
+                    "lang": "",
+                    "value": "/wikipedia/sk/R$00F3meo_a_J$00FAlia",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:34:54.000Z"
+                },
+                {
+                    "text": "/wikipedia/tr/Romeo_ile_J$00FClyet",
+                    "lang": "",
+                    "value": "/wikipedia/tr/Romeo_ile_J$00FClyet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:35:14.000Z"
+                },
+                {
+                    "text": "/wikipedia/cs_title/Romeo_a_Julie",
+                    "lang": "",
+                    "value": "/wikipedia/cs_title/Romeo_a_Julie",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:35:31.000Z"
+                },
+                {
+                    "text": "/wikipedia/sv/Romeo_och_Julia",
+                    "lang": "",
+                    "value": "/wikipedia/sv/Romeo_och_Julia",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:36:33.000Z"
+                },
+                {
+                    "text": "/wikipedia/sl_id/34848",
+                    "lang": "",
+                    "value": "/wikipedia/sl_id/34848",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:36:45.001Z"
+                },
+                {
+                    "text": "/wikipedia/fa/$0631$0648$0645$0626$0648_$0648_$0698$0648$0644$06CC$062A",
+                    "lang": "",
+                    "value": "/wikipedia/fa/$0631$0648$0645$0626$0648_$0648_$0698$0648$0644$06CC$062A",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:36:50.000Z"
+                },
+                {
+                    "text": "/wikipedia/ar/$0631$0648$0645$064A$0648_$0648$062C$0648$0644$064A$064A$062A",
+                    "lang": "",
+                    "value": "/wikipedia/ar/$0631$0648$0645$064A$0648_$0648$062C$0648$0644$064A$064A$062A",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:37:08.000Z"
+                },
+                {
+                    "text": "/wikipedia/ca/Tybalt$002C_rei_dels_gats$002C_cap_dels_espadatxins",
+                    "lang": "",
+                    "value": "/wikipedia/ca/Tybalt$002C_rei_dels_gats$002C_cap_dels_espadatxins",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:37:11.000Z"
+                },
+                {
+                    "text": "/wikipedia/ar_title/$0631$0648$0645$064A$0648_$0648$062C$0648$0644$064A$064A$062A",
+                    "lang": "",
+                    "value": "/wikipedia/ar_title/$0631$0648$0645$064A$0648_$0648$062C$0648$0644$064A$064A$062A",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:37:39.000Z"
+                },
+                {
+                    "text": "/wikipedia/tr_title/Romeo_ve_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/tr_title/Romeo_ve_Juliet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:38:27.000Z"
+                },
+                {
+                    "text": "/wikipedia/sk_id/293791",
+                    "lang": "",
+                    "value": "/wikipedia/sk_id/293791",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:38:44.000Z"
+                },
+                {
+                    "text": "/wikipedia/zh-tw/$7F57$5BC6$6B27$4E0E$6731$4E3D$53F6",
+                    "lang": "",
+                    "value": "/wikipedia/zh-tw/$7F57$5BC6$6B27$4E0E$6731$4E3D$53F6",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:39:13.000Z"
+                },
+                {
+                    "text": "/wikipedia/cs/Romeo_a_Julie",
+                    "lang": "",
+                    "value": "/wikipedia/cs/Romeo_a_Julie",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:39:42.000Z"
+                },
+                {
+                    "text": "/wikipedia/vi/Romeo_v$00E0_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/vi/Romeo_v$00E0_Juliet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:40:27.000Z"
+                },
+                {
+                    "text": "/wikipedia/id_id/13047",
+                    "lang": "",
+                    "value": "/wikipedia/id_id/13047",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:41:05.000Z"
+                },
+                {
+                    "text": "/wikipedia/fa/$0631$0645$0626$0648_$0648_$0698$0648$0644$06CC$062A",
+                    "lang": "",
+                    "value": "/wikipedia/fa/$0631$0645$0626$0648_$0648_$0698$0648$0644$06CC$062A",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:41:16.000Z"
+                },
+                {
+                    "text": "/wikipedia/ca_title/Romeu_i_Julieta",
+                    "lang": "",
+                    "value": "/wikipedia/ca_title/Romeu_i_Julieta",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:41:38.000Z"
+                },
+                {
+                    "text": "/wikipedia/sl/Rom$00E9o_et_Juliette",
+                    "lang": "",
+                    "value": "/wikipedia/sl/Rom$00E9o_et_Juliette",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:41:52.000Z"
+                },
+                {
+                    "text": "/wikipedia/hr_id/28065",
+                    "lang": "",
+                    "value": "/wikipedia/hr_id/28065",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:42:03.000Z"
+                },
+                {
+                    "text": "/wikipedia/lv/Romeo_un_D$017Euljeta",
+                    "lang": "",
+                    "value": "/wikipedia/lv/Romeo_un_D$017Euljeta",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:42:22.000Z"
+                },
+                {
+                    "text": "/wikipedia/th/$0E42$0E23$0E40$0E21$0E42$0E2D$0E01$0E31$0E1A$0E08$0E39$0E40$0E25$0E35$0E22$0E15",
+                    "lang": "",
+                    "value": "/wikipedia/th/$0E42$0E23$0E40$0E21$0E42$0E2D$0E01$0E31$0E1A$0E08$0E39$0E40$0E25$0E35$0E22$0E15",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:43:03.000Z"
+                },
+                {
+                    "text": "/wikipedia/tr/Romeo$0027yla_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/tr/Romeo$0027yla_Juliet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:43:13.000Z"
+                },
+                {
+                    "text": "/wikipedia/sk_title/R$00F3meo_a_J$00FAlia",
+                    "lang": "",
+                    "value": "/wikipedia/sk_title/R$00F3meo_a_J$00FAlia",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:43:14.000Z"
+                },
+                {
+                    "text": "/wikipedia/tr/Romeo$0027yla_J$00FClyet",
+                    "lang": "",
+                    "value": "/wikipedia/tr/Romeo$0027yla_J$00FClyet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:44:04.000Z"
+                },
+                {
+                    "text": "/wikipedia/fr/Rom$00E9o_et_Juliette_$0028Shakespeare$0029",
+                    "lang": "",
+                    "value": "/wikipedia/fr/Rom$00E9o_et_Juliette_$0028Shakespeare$0029",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:44:12.000Z"
+                },
+                {
+                    "text": "/wikipedia/ja/$30ED$30DF$30B8$30E5$30EA",
+                    "lang": "",
+                    "value": "/wikipedia/ja/$30ED$30DF$30B8$30E5$30EA",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:44:59.000Z"
+                },
+                {
+                    "text": "/wikipedia/ca/Romeu_i_Julieta",
+                    "lang": "",
+                    "value": "/wikipedia/ca/Romeu_i_Julieta",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:45:54.000Z"
+                },
+                {
+                    "text": "/wikipedia/cs_id/241816",
+                    "lang": "",
+                    "value": "/wikipedia/cs_id/241816",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:45:56.000Z"
+                },
+                {
+                    "text": "/wikipedia/tr/Romeo_ve_J$00FClyet",
+                    "lang": "",
+                    "value": "/wikipedia/tr/Romeo_ve_J$00FClyet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:45:57.000Z"
+                },
+                {
+                    "text": "/wikipedia/sr_title/$0420$043E$043C$0435$043E_$0438_$0408$0443$043B$0438$0458$0430",
+                    "lang": "",
+                    "value": "/wikipedia/sr_title/$0420$043E$043C$0435$043E_$0438_$0408$0443$043B$0438$0458$0430",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:46:30.000Z"
+                },
+                {
+                    "text": "/wikipedia/ro_id/176814",
+                    "lang": "",
+                    "value": "/wikipedia/ro_id/176814",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:47:15.000Z"
+                },
+                {
+                    "text": "/wikipedia/id_title/Romeo_dan_Julia",
+                    "lang": "",
+                    "value": "/wikipedia/id_title/Romeo_dan_Julia",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:47:17.000Z"
+                },
+                {
+                    "text": "/wikipedia/ja/$30ED$30E1$30AA$3068$30B8$30E5$30EA$30A8$30C3$30C8",
+                    "lang": "",
+                    "value": "/wikipedia/ja/$30ED$30E1$30AA$3068$30B8$30E5$30EA$30A8$30C3$30C8",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2012-11-28T00:48:39.000Z"
+                },
+                {
+                    "text": "/base/ranker/rankerurlname/romeo-and-juliet$002F1934272",
+                    "lang": "",
+                    "value": "/base/ranker/rankerurlname/romeo-and-juliet$002F1934272",
+                    "creator": "/user/ravi_ranker",
+                    "timestamp": "2013-02-21T13:30:56.000Z"
+                },
+                {
+                    "text": "/wikipedia/en/Romeo_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/en/Romeo_Juliet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-03-27T09:43:44.001Z"
+                },
+                {
+                    "text": "/wikipedia/en/Romeo_$0026_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/en/Romeo_$0026_Juliet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-03-27T09:43:46.000Z"
+                },
+                {
+                    "text": "/wikipedia/en/Romeo_and_Juliet_Conflicts",
+                    "lang": "",
+                    "value": "/wikipedia/en/Romeo_and_Juliet_Conflicts",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-03-27T09:43:47.001Z"
+                },
+                {
+                    "text": "/wikipedia/en/Romeo_$0026_juliet_act_5",
+                    "lang": "",
+                    "value": "/wikipedia/en/Romeo_$0026_juliet_act_5",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-03-27T09:43:48.001Z"
+                },
+                {
+                    "text": "/wikipedia/en/The_Tragedy_Of_Romeo_And_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/en/The_Tragedy_Of_Romeo_And_Juliet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-03-27T09:43:51.001Z"
+                },
+                {
+                    "text": "/wikipedia/en/Romeo_and_Juliet_$0028play$0029",
+                    "lang": "",
+                    "value": "/wikipedia/en/Romeo_and_Juliet_$0028play$0029",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-03-27T09:43:52.001Z"
+                },
+                {
+                    "text": "/wikipedia/en/Romeo_And_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/en/Romeo_And_Juliet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-03-27T09:43:55.001Z"
+                },
+                {
+                    "text": "/wikipedia/en/A_plague_on_both_your_houses",
+                    "lang": "",
+                    "value": "/wikipedia/en/A_plague_on_both_your_houses",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-03-27T09:43:56.000Z"
+                },
+                {
+                    "text": "/wikipedia/en/The_most_excellent_and_lamentable_tragedie$002C_of_Romeo_and_Iuliet",
+                    "lang": "",
+                    "value": "/wikipedia/en/The_most_excellent_and_lamentable_tragedie$002C_of_Romeo_and_Iuliet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-03-27T09:43:57.000Z"
+                },
+                {
+                    "text": "/wikipedia/en/The_Tragedy_of_Romeo_$0026_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/en/The_Tragedy_of_Romeo_$0026_Juliet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-03-27T09:44:02.001Z"
+                },
+                {
+                    "text": "/wikipedia/en/Romeo_and_Julia",
+                    "lang": "",
+                    "value": "/wikipedia/en/Romeo_and_Julia",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-03-27T09:44:08.000Z"
+                },
+                {
+                    "text": "/wikipedia/en/Romio_and_Julliet",
+                    "lang": "",
+                    "value": "/wikipedia/en/Romio_and_Julliet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-03-27T09:44:09.001Z"
+                },
+                {
+                    "text": "/wikipedia/en/Romeo_and_Juiliet",
+                    "lang": "",
+                    "value": "/wikipedia/en/Romeo_and_Juiliet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-03-27T09:44:10.002Z"
+                },
+                {
+                    "text": "/wikipedia/en/Romeo_and_Juliette",
+                    "lang": "",
+                    "value": "/wikipedia/en/Romeo_and_Juliette",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-03-27T09:44:12.000Z"
+                },
+                {
+                    "text": "/wikipedia/en/Escalus",
+                    "lang": "",
+                    "value": "/wikipedia/en/Escalus",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-03-27T09:44:13.000Z"
+                },
+                {
+                    "text": "/wikipedia/en/Romeo_and_juliet",
+                    "lang": "",
+                    "value": "/wikipedia/en/Romeo_and_juliet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-03-27T09:44:15.000Z"
+                },
+                {
+                    "text": "/wikipedia/en/The_Tragedy_Romeo_and_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/en/The_Tragedy_Romeo_and_Juliet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-03-27T09:44:16.000Z"
+                },
+                {
+                    "text": "/wikipedia/en/The_Most_Excellent_and_Lamentable_Tragedy_of_Romeo_and_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/en/The_Most_Excellent_and_Lamentable_Tragedy_of_Romeo_and_Juliet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-03-27T09:44:17.001Z"
+                },
+                {
+                    "text": "/wikipedia/en/Montague_and_Capulet",
+                    "lang": "",
+                    "value": "/wikipedia/en/Montague_and_Capulet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-03-27T09:44:19.000Z"
+                },
+                {
+                    "text": "/wikipedia/sr/$0420$043E$043C$0435$043E_$0438_$0402$0443$043B$0438$0458$0435$0442$0430",
+                    "lang": "",
+                    "value": "/wikipedia/sr/$0420$043E$043C$0435$043E_$0438_$0402$0443$043B$0438$0458$0435$0442$0430",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-04-06T02:19:06.005Z"
+                },
+                {
+                    "text": "/wikipedia/zh-tw/$7F85$5BC6$6B50$8207$8331$9E97$8449",
+                    "lang": "",
+                    "value": "/wikipedia/zh-tw/$7F85$5BC6$6B50$8207$8331$9E97$8449",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-04-06T02:19:28.005Z"
+                },
+                {
+                    "text": "/wikipedia/zh-cn/$7F85$5BC6$6B50$8207$8331$9E97$8449",
+                    "lang": "",
+                    "value": "/wikipedia/zh-cn/$7F85$5BC6$6B50$8207$8331$9E97$8449",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-04-06T02:19:34.002Z"
+                },
+                {
+                    "text": "/wikipedia/tl/Romeus_at_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/tl/Romeus_at_Juliet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-04-20T04:31:28.001Z"
+                },
+                {
+                    "text": "/wikipedia/tl/Juliet_at_Romeo",
+                    "lang": "",
+                    "value": "/wikipedia/tl/Juliet_at_Romeo",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-04-20T04:31:28.004Z"
+                },
+                {
+                    "text": "/wikipedia/tl/Juliet_and_Romeus",
+                    "lang": "",
+                    "value": "/wikipedia/tl/Juliet_and_Romeus",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-04-20T04:31:31.000Z"
+                },
+                {
+                    "text": "/wikipedia/tl/Julieta_at_Romeo",
+                    "lang": "",
+                    "value": "/wikipedia/tl/Julieta_at_Romeo",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-04-20T04:31:34.001Z"
+                },
+                {
+                    "text": "/wikipedia/tl/Romeo_and_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/tl/Romeo_and_Juliet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-04-20T04:31:41.007Z"
+                },
+                {
+                    "text": "/wikipedia/tl/Romeo_at_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/tl/Romeo_at_Juliet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-04-20T04:31:42.001Z"
+                },
+                {
+                    "text": "/wikipedia/tl/Romeus_and_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/tl/Romeus_and_Juliet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-04-20T04:31:43.001Z"
+                },
+                {
+                    "text": "/wikipedia/tl/Romeo_at_Julieta",
+                    "lang": "",
+                    "value": "/wikipedia/tl/Romeo_at_Julieta",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-04-20T04:31:44.005Z"
+                },
+                {
+                    "text": "/wikipedia/tl/Romeus_at_Julieta",
+                    "lang": "",
+                    "value": "/wikipedia/tl/Romeus_at_Julieta",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-04-20T04:31:44.006Z"
+                },
+                {
+                    "text": "/wikipedia/tl/Juliet_at_Romeus",
+                    "lang": "",
+                    "value": "/wikipedia/tl/Juliet_at_Romeus",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-04-20T04:31:52.001Z"
+                },
+                {
+                    "text": "/wikipedia/tl/Juliet_and_Romeo",
+                    "lang": "",
+                    "value": "/wikipedia/tl/Juliet_and_Romeo",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-04-20T04:31:54.005Z"
+                },
+                {
+                    "text": "/wikipedia/tl/Juliet_$0026_Romeo",
+                    "lang": "",
+                    "value": "/wikipedia/tl/Juliet_$0026_Romeo",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-04-20T04:31:55.005Z"
+                },
+                {
+                    "text": "/wikipedia/tl/Romeus",
+                    "lang": "",
+                    "value": "/wikipedia/tl/Romeus",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-04-20T04:31:57.002Z"
+                },
+                {
+                    "text": "/wikipedia/tl/Romeo_$0026_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/tl/Romeo_$0026_Juliet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-04-20T04:31:58.000Z"
+                },
+                {
+                    "text": "/wikipedia/tl_id/199654",
+                    "lang": "",
+                    "value": "/wikipedia/tl_id/199654",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-04-20T04:32:03.007Z"
+                },
+                {
+                    "text": "/wikipedia/ru_title/$0420$043E$043C$0435$043E_$0438_$0414$0436$0443$043B$044C$0435$0442$0442$0430",
+                    "lang": "",
+                    "value": "/wikipedia/ru_title/$0420$043E$043C$0435$043E_$0438_$0414$0436$0443$043B$044C$0435$0442$0442$0430",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-05-25T18:12:13.009Z"
+                },
+                {
+                    "text": "/wikipedia/ru/$0420$043E$043C$0435$043E_$0438_$0414$0436$0443$043B$044C$0435$0442$0442$0430",
+                    "lang": "",
+                    "value": "/wikipedia/ru/$0420$043E$043C$0435$043E_$0438_$0414$0436$0443$043B$044C$0435$0442$0442$0430",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-05-25T18:12:20.002Z"
+                },
+                {
+                    "text": "/wikipedia/ru_id/287471",
+                    "lang": "",
+                    "value": "/wikipedia/ru_id/287471",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-05-25T18:12:21.003Z"
+                },
+                {
+                    "text": "/wikipedia/ru/$041A$0430$043F$0443$043B$0435$0442$0442$0438",
+                    "lang": "",
+                    "value": "/wikipedia/ru/$041A$0430$043F$0443$043B$0435$0442$0442$0438",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-05-25T18:12:31.003Z"
+                },
+                {
+                    "text": "/wikipedia/ru/$041C$043E$043D$0442$0435$043A$043A$0438",
+                    "lang": "",
+                    "value": "/wikipedia/ru/$041C$043E$043D$0442$0435$043A$043A$0438",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-05-25T18:12:46.002Z"
+                },
+                {
+                    "text": "/wikipedia/ru/$041A$0430$043F$0443$043B$0435$0442$0442$0438_$0438_$041C$043E$043D$0442$0435$043A$043A$0438",
+                    "lang": "",
+                    "value": "/wikipedia/ru/$041A$0430$043F$0443$043B$0435$0442$0442$0438_$0438_$041C$043E$043D$0442$0435$043A$043A$0438",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-05-25T18:13:21.005Z"
+                },
+                {
+                    "text": "/wikipedia/ru/$0420$043E$043C$0435$043E_$0438_$0414$0436$0443$043B$044C$0435$0442$0442$0430_$0028$043F$044C$0435$0441$0430$0029",
+                    "lang": "",
+                    "value": "/wikipedia/ru/$0420$043E$043C$0435$043E_$0438_$0414$0436$0443$043B$044C$0435$0442$0442$0430_$0028$043F$044C$0435$0441$0430$0029",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-05-25T18:13:42.000Z"
+                },
+                {
+                    "text": "/wikipedia/et/The_Most_Excellent_and_Lamentable_Tragedy_of_Romeo_and_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/et/The_Most_Excellent_and_Lamentable_Tragedy_of_Romeo_and_Juliet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-07-30T07:43:09.000Z"
+                },
+                {
+                    "text": "/wikipedia/nl/Romeo_en_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/nl/Romeo_en_Juliet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2013-12-30T16:56:49.001Z"
+                },
+                {
+                    "text": "/wikipedia/ms_id/701571",
+                    "lang": "",
+                    "value": "/wikipedia/ms_id/701571",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2014-01-13T21:36:02.000Z"
+                },
+                {
+                    "text": "/wikipedia/ms/Romeo_dan_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/ms/Romeo_dan_Juliet",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2014-01-13T21:36:22.000Z"
+                },
+                {
+                    "text": "/wikipedia/nl_title/Romeo_and_Juliet_$0028toneelstuk$0029",
+                    "lang": "",
+                    "value": "/wikipedia/nl_title/Romeo_and_Juliet_$0028toneelstuk$0029",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2014-01-21T12:43:44.000Z"
+                },
+                {
+                    "text": "/wikipedia/nl/Romeo_and_Juliet_$0028toneelstuk$0029",
+                    "lang": "",
+                    "value": "/wikipedia/nl/Romeo_and_Juliet_$0028toneelstuk$0029",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2014-01-21T12:43:44.000Z"
+                },
+                {
+                    "text": "/wikipedia/hi/$0930$094B$092E$093F$0913_$0914$0930_$091C$0941$0932$093F$090F$0924$094D",
+                    "lang": "",
+                    "value": "/wikipedia/hi/$0930$094B$092E$093F$0913_$0914$0930_$091C$0941$0932$093F$090F$0924$094D",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2014-03-10T21:23:49.000Z"
+                },
+                {
+                    "text": "/wikipedia/zh-cn/$7F57$5BC6$6B27$4E0E$8331$4E3D$53F6",
+                    "lang": "",
+                    "value": "/wikipedia/zh-cn/$7F57$5BC6$6B27$4E0E$8331$4E3D$53F6",
+                    "creator": "/user/wikirecon_bot",
+                    "timestamp": "2014-07-24T19:10:11.002Z"
+                },
+                {
+                    "text": "/wikipedia/vi_title/Romeo_v$00E0_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/vi_title/Romeo_v$00E0_Juliet",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/pl/Romeo_i_Julia",
+                    "lang": "",
+                    "value": "/wikipedia/pl/Romeo_i_Julia",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/it/Romeo_$0026_Giulietta",
+                    "lang": "",
+                    "value": "/wikipedia/it/Romeo_$0026_Giulietta",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/nl/Romeo_en_Julia_$0028hoofdbetekenis$0029",
+                    "lang": "",
+                    "value": "/wikipedia/nl/Romeo_en_Julia_$0028hoofdbetekenis$0029",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/pt/Romeu_e_julieta",
+                    "lang": "",
+                    "value": "/wikipedia/pt/Romeu_e_julieta",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/es_title/Romeo_y_Julieta",
+                    "lang": "",
+                    "value": "/wikipedia/es_title/Romeo_y_Julieta",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/pl_id/24486",
+                    "lang": "",
+                    "value": "/wikipedia/pl_id/24486",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/es/Romeo_y_julieta",
+                    "lang": "",
+                    "value": "/wikipedia/es/Romeo_y_julieta",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/ar_id/67026",
+                    "lang": "",
+                    "value": "/wikipedia/ar_id/67026",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/es/Romeo",
+                    "lang": "",
+                    "value": "/wikipedia/es/Romeo",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/zh-cn_title/$7F57$5BC6$6B27$4E0E$6731$4E3D$53F6",
+                    "lang": "",
+                    "value": "/wikipedia/zh-cn_title/$7F57$5BC6$6B27$4E0E$6731$4E3D$53F6",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/vi_id/32203",
+                    "lang": "",
+                    "value": "/wikipedia/vi_id/32203",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/en_title/Romeo_and_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/en_title/Romeo_and_Juliet",
+                    "creator": "/user/mwcl_wikipedia_en"
+                },
+                {
+                    "text": "/wikipedia/lt/Romeo_ir_D$017Eiuljeta",
+                    "lang": "",
+                    "value": "/wikipedia/lt/Romeo_ir_D$017Eiuljeta",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/uk_title/$0420$043E$043C$0435$043E_$0456_$0414$0436$0443$043B$044C$0454$0442$0442$0430",
+                    "lang": "",
+                    "value": "/wikipedia/uk_title/$0420$043E$043C$0435$043E_$0456_$0414$0436$0443$043B$044C$0454$0442$0442$0430",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/ko_title/$B85C$BBF8$C624$C640_$C904$B9AC$C5E3",
+                    "lang": "",
+                    "value": "/wikipedia/ko_title/$B85C$BBF8$C624$C640_$C904$B9AC$C5E3",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/es/La_tragedia_de_Romeo_y_Julieta",
+                    "lang": "",
+                    "value": "/wikipedia/es/La_tragedia_de_Romeo_y_Julieta",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/de/Romeo_and_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/de/Romeo_and_Juliet",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/el_title/$03A1$03C9$03BC$03B1$03AF$03BF$03C2_$03BA$03B1$03B9_$0399$03BF$03C5$03BB$03B9$03AD$03C4$03B1",
+                    "lang": "",
+                    "value": "/wikipedia/el_title/$03A1$03C9$03BC$03B1$03AF$03BF$03C2_$03BA$03B1$03B9_$0399$03BF$03C5$03BB$03B9$03AD$03C4$03B1",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/es/Julieta_Capuleto",
+                    "lang": "",
+                    "value": "/wikipedia/es/Julieta_Capuleto",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/da/Romeo_og_Julie",
+                    "lang": "",
+                    "value": "/wikipedia/da/Romeo_og_Julie",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/hi_title/$0930$094B$092E$093F$092F$094B_$0914$0930_$091C$0942$0932$093F$092F$091F",
+                    "lang": "",
+                    "value": "/wikipedia/hi_title/$0930$094B$092E$093F$092F$094B_$0914$0930_$091C$0942$0932$093F$092F$091F",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/en/Romeo_and_Juilet",
+                    "lang": "",
+                    "value": "/wikipedia/en/Romeo_and_Juilet",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/no/$00ABRomeo_og_Julie$00BB",
+                    "lang": "",
+                    "value": "/wikipedia/no/$00ABRomeo_og_Julie$00BB",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/nl_id/8756",
+                    "lang": "",
+                    "value": "/wikipedia/nl_id/8756",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/th/$0E42$0E23$0E21$0E34$0E42$0E2D$0E01$0E31$0E1A$0E08$0E39$0E40$0E25$0E35$0E22$0E15",
+                    "lang": "",
+                    "value": "/wikipedia/th/$0E42$0E23$0E21$0E34$0E42$0E2D$0E01$0E31$0E1A$0E08$0E39$0E40$0E25$0E35$0E22$0E15",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/fa_title/$0631$0648$0645$0626$0648_$0648_$0698$0648$0644$06CC$062A",
+                    "lang": "",
+                    "value": "/wikipedia/fa_title/$0631$0648$0645$0626$0648_$0648_$0698$0648$0644$06CC$062A",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/no_id/139896",
+                    "lang": "",
+                    "value": "/wikipedia/no_id/139896",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/lt/Romeo_ir_d$017Eiuljeta",
+                    "lang": "",
+                    "value": "/wikipedia/lt/Romeo_ir_d$017Eiuljeta",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/zh-cn/$7F85$5BC6$6B50$8207$6731$9E97$8449",
+                    "lang": "",
+                    "value": "/wikipedia/zh-cn/$7F85$5BC6$6B50$8207$6731$9E97$8449",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/sv/Romeo_$0026_Julia",
+                    "lang": "",
+                    "value": "/wikipedia/sv/Romeo_$0026_Julia",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/zh-cn_id/173690",
+                    "lang": "",
+                    "value": "/wikipedia/zh-cn_id/173690",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/vi/Chuy$1EC7n_t$00ECnh_Romeo_$0026_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/vi/Chuy$1EC7n_t$00ECnh_Romeo_$0026_Juliet",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/da/Romeo",
+                    "lang": "",
+                    "value": "/wikipedia/da/Romeo",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/pt/Romeo_and_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/pt/Romeo_and_Juliet",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/he_title/$05E8$05D5$05DE$05D0$05D5_$05D5$05D9$05D5$05DC$05D9$05D4",
+                    "lang": "",
+                    "value": "/wikipedia/he_title/$05E8$05D5$05DE$05D0$05D5_$05D5$05D9$05D5$05DC$05D9$05D4",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/es/Los_amantes_de_Verona",
+                    "lang": "",
+                    "value": "/wikipedia/es/Los_amantes_de_Verona",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/es/Romeo_Montesco",
+                    "lang": "",
+                    "value": "/wikipedia/es/Romeo_Montesco",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/uk/$0420$043E$043C$0435$043E_$0456_$0414$0436$0443$043B$044C$0454$0442$0442$0430",
+                    "lang": "",
+                    "value": "/wikipedia/uk/$0420$043E$043C$0435$043E_$0456_$0414$0436$0443$043B$044C$0454$0442$0442$0430",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/sr_id/151220",
+                    "lang": "",
+                    "value": "/wikipedia/sr_id/151220",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/da_title/Romeo_og_Julie",
+                    "lang": "",
+                    "value": "/wikipedia/da_title/Romeo_og_Julie",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/sv/Romeo_och_julia",
+                    "lang": "",
+                    "value": "/wikipedia/sv/Romeo_och_julia",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/fr/Romeo_Montecchi",
+                    "lang": "",
+                    "value": "/wikipedia/fr/Romeo_Montecchi",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/sv/Pj$00E4s$002FRomeo_och_Julia",
+                    "lang": "",
+                    "value": "/wikipedia/sv/Pj$00E4s$002FRomeo_och_Julia",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/en/The_Tragedy_of_Romeo_and_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/en/The_Tragedy_of_Romeo_and_Juliet",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/no/Romeo_and_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/no/Romeo_and_Juliet",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/hi/$0930$094B$092E$093F$092F$094B_$0914$0930_$091C$0942$0932$093F$092F$091F",
+                    "lang": "",
+                    "value": "/wikipedia/hi/$0930$094B$092E$093F$092F$094B_$0914$0930_$091C$0942$0932$093F$092F$091F",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/it_title/Romeo_e_Giulietta",
+                    "lang": "",
+                    "value": "/wikipedia/it_title/Romeo_e_Giulietta",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/et_id/338163",
+                    "lang": "",
+                    "value": "/wikipedia/et_id/338163",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/en/Romeo_and_juilet",
+                    "lang": "",
+                    "value": "/wikipedia/en/Romeo_and_juilet",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/zh-tw/$7F57$5BC6$6B27$4E0E$8331$4E3D$53F6",
+                    "lang": "",
+                    "value": "/wikipedia/zh-tw/$7F57$5BC6$6B27$4E0E$8331$4E3D$53F6",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/en/Romeo_$0026_Juliette",
+                    "lang": "",
+                    "value": "/wikipedia/en/Romeo_$0026_Juliette",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/ms_title/Romeo_dan_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/ms_title/Romeo_dan_Juliet",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/ar/$0631$0648$0645$064A$0648_$0648$062C$0648$0644$064A$0648$062A",
+                    "lang": "",
+                    "value": "/wikipedia/ar/$0631$0648$0645$064A$0648_$0648$062C$0648$0644$064A$0648$062A",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/it/Romeo_e_Giulietta",
+                    "lang": "",
+                    "value": "/wikipedia/it/Romeo_e_Giulietta",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/et/Romeo_ja_Julia",
+                    "lang": "",
+                    "value": "/wikipedia/et/Romeo_ja_Julia",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/lt_title/Romeo_ir_D$017Euljeta",
+                    "lang": "",
+                    "value": "/wikipedia/lt_title/Romeo_ir_D$017Euljeta",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/it_id/2831327",
+                    "lang": "",
+                    "value": "/wikipedia/it_id/2831327",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/fa/$0631$0648$0645$0626$0648_$0648_$0698$0648$0644$064A$062A",
+                    "lang": "",
+                    "value": "/wikipedia/fa/$0631$0648$0645$0626$0648_$0648_$0698$0648$0644$064A$062A",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/fa/$0631$0645$0626$0648_$0648_$0698$0648$0644$064A$062A",
+                    "lang": "",
+                    "value": "/wikipedia/fa/$0631$0645$0626$0648_$0648_$0698$0648$0644$064A$062A",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/hi_id/552714",
+                    "lang": "",
+                    "value": "/wikipedia/hi_id/552714",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/tr/Romeo_Montague",
+                    "lang": "",
+                    "value": "/wikipedia/tr/Romeo_Montague",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/da_id/19939",
+                    "lang": "",
+                    "value": "/wikipedia/da_id/19939",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/sl/Romeo_in_Julia",
+                    "lang": "",
+                    "value": "/wikipedia/sl/Romeo_in_Julia",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/it/Romeo_e_Giulietta_$0028Shakespeare$0029",
+                    "lang": "",
+                    "value": "/wikipedia/it/Romeo_e_Giulietta_$0028Shakespeare$0029",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/uk/$041A$0430$043F$0443$043B$0435$0442$0442$0456_$0456_$041C$043E$043D$0442$0435$043A$043A$0456",
+                    "lang": "",
+                    "value": "/wikipedia/uk/$041A$0430$043F$0443$043B$0435$0442$0442$0456_$0456_$041C$043E$043D$0442$0435$043A$043A$0456",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/lt/Romeo_ir_D$017Euljeta",
+                    "lang": "",
+                    "value": "/wikipedia/lt/Romeo_ir_D$017Euljeta",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/pt/Julieta_Capuleto",
+                    "lang": "",
+                    "value": "/wikipedia/pt/Julieta_Capuleto",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/es/Romeo_y_Julieta",
+                    "lang": "",
+                    "value": "/wikipedia/es/Romeo_y_Julieta",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/uk/$0420$043E$043C$0435$043E_$0456_$0414$0436$0443$043B$044C$0454$0442$0442$0430_$0028$043F$0027$0454$0441$0430$0029",
+                    "lang": "",
+                    "value": "/wikipedia/uk/$0420$043E$043C$0435$043E_$0456_$0414$0436$0443$043B$044C$0454$0442$0442$0430_$0028$043F$0027$0454$0441$0430$0029",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/es/Romeo_y_Julieta_de_William_Shakespeare",
+                    "lang": "",
+                    "value": "/wikipedia/es/Romeo_y_Julieta_de_William_Shakespeare",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/en/Romeo_and_Julet",
+                    "lang": "",
+                    "value": "/wikipedia/en/Romeo_and_Julet",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/vi/Romeo_and_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/vi/Romeo_and_Juliet",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/et_title/Romeo_ja_Julia",
+                    "lang": "",
+                    "value": "/wikipedia/et_title/Romeo_ja_Julia",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/en/Romeo_and_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/en/Romeo_and_Juliet",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/ar/$0631$0648$0645$064A$0648_$0648$062C$0648$0644$064A$062A",
+                    "lang": "",
+                    "value": "/wikipedia/ar/$0631$0648$0645$064A$0648_$0648$062C$0648$0644$064A$062A",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/sv/Romeo_och_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/sv/Romeo_och_Juliet",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/hu_id/176770",
+                    "lang": "",
+                    "value": "/wikipedia/hu_id/176770",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/ca/Romeo_i_Julieta",
+                    "lang": "",
+                    "value": "/wikipedia/ca/Romeo_i_Julieta",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/ru/$0420$043E$043C$0435$043E_$0438_$0414$0436$0443$043B$044C$0435$0442$0430",
+                    "lang": "",
+                    "value": "/wikipedia/ru/$0420$043E$043C$0435$043E_$0438_$0414$0436$0443$043B$044C$0435$0442$0430",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/ko/$B85C$BBF8$C624$C640_$C904$B9AC$C5E3",
+                    "lang": "",
+                    "value": "/wikipedia/ko/$B85C$BBF8$C624$C640_$C904$B9AC$C5E3",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/fi_id/26483",
+                    "lang": "",
+                    "value": "/wikipedia/fi_id/26483",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/zh-tw_id/173690",
+                    "lang": "",
+                    "value": "/wikipedia/zh-tw_id/173690",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/fr/Romeo_x_Juliet_$0028animation_japonaise$002C_2007$0029",
+                    "lang": "",
+                    "value": "/wikipedia/fr/Romeo_x_Juliet_$0028animation_japonaise$002C_2007$0029",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/tl/Juliet_$0026_Romeus",
+                    "lang": "",
+                    "value": "/wikipedia/tl/Juliet_$0026_Romeus",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/he/$05E8$05D5$05DE$05D0$05D5_$05D5$05D9$05D5$05DC$05D9$05D4",
+                    "lang": "",
+                    "value": "/wikipedia/he/$05E8$05D5$05DE$05D0$05D5_$05D5$05D9$05D5$05DC$05D9$05D4",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/lt_id/119982",
+                    "lang": "",
+                    "value": "/wikipedia/lt_id/119982",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/it/Romeo_e_Giulietta_$0028opera_teatrale$0029",
+                    "lang": "",
+                    "value": "/wikipedia/it/Romeo_e_Giulietta_$0028opera_teatrale$0029",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/hu/R$00F3me$00F3_$00E9s_J$00FAlia",
+                    "lang": "",
+                    "value": "/wikipedia/hu/R$00F3me$00F3_$00E9s_J$00FAlia",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/fr/Rom$00E9o_et_juliette",
+                    "lang": "",
+                    "value": "/wikipedia/fr/Rom$00E9o_et_juliette",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/en/Romeo_and_Iuliet",
+                    "lang": "",
+                    "value": "/wikipedia/en/Romeo_and_Iuliet",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/hu/Romeo_$00E9s_J$00FAlia",
+                    "lang": "",
+                    "value": "/wikipedia/hu/Romeo_$00E9s_J$00FAlia",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/uk_id/721415",
+                    "lang": "",
+                    "value": "/wikipedia/uk_id/721415",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/sr/$0420$043E$043C$0435$043E_$0438_$0408$0443$043B$0438$0458$0430",
+                    "lang": "",
+                    "value": "/wikipedia/sr/$0420$043E$043C$0435$043E_$0438_$0408$0443$043B$0438$0458$0430",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/pt_title/Romeu_e_Julieta",
+                    "lang": "",
+                    "value": "/wikipedia/pt_title/Romeu_e_Julieta",
+                    "creator": "/user/wikipedia_intl"
+                },
+                {
+                    "text": "/wikipedia/sv_title/Romeo_och_Julia",
+                    "lang": "",
+                    "value": "/wikipedia/sv_title/Romeo_och_Julia",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/fr/Rom$00E9o_et_Juliette",
+                    "lang": "",
+                    "value": "/wikipedia/fr/Rom$00E9o_et_Juliette",
+                    "creator": "/user/wikipedia_intl"
+                },
+                {
+                    "text": "/wikipedia/bg_title/$0420$043E$043C$0435$043E_$0438_$0416$0443$043B$0438$0435$0442$0430",
+                    "lang": "",
+                    "value": "/wikipedia/bg_title/$0420$043E$043C$0435$043E_$0438_$0416$0443$043B$0438$0435$0442$0430",
+                    "creator": "/user/wikipedia_intl"
+                },
+                {
+                    "text": "/wikipedia/tl_title/Romeo_at_Julieta",
+                    "lang": "",
+                    "value": "/wikipedia/tl_title/Romeo_at_Julieta",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/pl_title/Romeo_i_Julia",
+                    "lang": "",
+                    "value": "/wikipedia/pl_title/Romeo_i_Julia",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/vi/Romeo_and_Juliet_$0028Shakespeare$0029",
+                    "lang": "",
+                    "value": "/wikipedia/vi/Romeo_and_Juliet_$0028Shakespeare$0029",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/tl/Julieta_at_Romeus",
+                    "lang": "",
+                    "value": "/wikipedia/tl/Julieta_at_Romeus",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/tr/Romeo_ve_Juliet_$0028oyun$0029",
+                    "lang": "",
+                    "value": "/wikipedia/tr/Romeo_ve_Juliet_$0028oyun$0029",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/zh-tw_title/$7F57$5BC6$6B27$4E0E$6731$4E3D$53F6",
+                    "lang": "",
+                    "value": "/wikipedia/zh-tw_title/$7F57$5BC6$6B27$4E0E$6731$4E3D$53F6",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/fr/Rom$00E9o_$0026_Juliette",
+                    "lang": "",
+                    "value": "/wikipedia/fr/Rom$00E9o_$0026_Juliette",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/fr/Romeo_et_Juliette",
+                    "lang": "",
+                    "value": "/wikipedia/fr/Romeo_et_Juliette",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/tr/Juliet_Capulet",
+                    "lang": "",
+                    "value": "/wikipedia/tr/Juliet_Capulet",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/fr/Romeo_et_Julliete",
+                    "lang": "",
+                    "value": "/wikipedia/fr/Romeo_et_Julliete",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/lt/Romeo_ir_d$017Euljeta",
+                    "lang": "",
+                    "value": "/wikipedia/lt/Romeo_ir_d$017Euljeta",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/he_id/4794",
+                    "lang": "",
+                    "value": "/wikipedia/he_id/4794",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/he/$05E8$05D5$05DE$05D9$05D0$05D5_$05D5$05D9$05D5$05DC$05D9$05D4",
+                    "lang": "",
+                    "value": "/wikipedia/he/$05E8$05D5$05DE$05D9$05D0$05D5_$05D5$05D9$05D5$05DC$05D9$05D4",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/zh-cn/$7F57$5BC6$6B27$4E0E$6731$4E3D$53F6",
+                    "lang": "",
+                    "value": "/wikipedia/zh-cn/$7F57$5BC6$6B27$4E0E$6731$4E3D$53F6",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/no/Romeo_$0026_Julie",
+                    "lang": "",
+                    "value": "/wikipedia/no/Romeo_$0026_Julie",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/de_id/76658",
+                    "lang": "",
+                    "value": "/wikipedia/de_id/76658",
+                    "creator": "/user/wikipedia_intl"
+                },
+                {
+                    "text": "/wikipedia/pt/Romeo_and_juliet",
+                    "lang": "",
+                    "value": "/wikipedia/pt/Romeo_and_juliet",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/no/Romeo_og_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/no/Romeo_og_Juliet",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/es_id/22928",
+                    "lang": "",
+                    "value": "/wikipedia/es_id/22928",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/hu/Rome$00F3_$00E9s_J$00FAlia",
+                    "lang": "",
+                    "value": "/wikipedia/hu/Rome$00F3_$00E9s_J$00FAlia",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/et/Romeo_and_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/et/Romeo_and_Juliet",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/vi/R$00F4m$00EA$00F4_v$00E0_Juliet",
+                    "lang": "",
+                    "value": "/wikipedia/vi/R$00F4m$00EA$00F4_v$00E0_Juliet",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/no_title/Romeo_og_Julie",
+                    "lang": "",
+                    "value": "/wikipedia/no_title/Romeo_og_Julie",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/bg_id/95797",
+                    "lang": "",
+                    "value": "/wikipedia/bg_id/95797",
+                    "creator": "/user/wikipedia_intl"
+                },
+                {
+                    "text": "/wikipedia/de/Tybalt",
+                    "lang": "",
+                    "value": "/wikipedia/de/Tybalt",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/de/Romeo_und_Julia",
+                    "lang": "",
+                    "value": "/wikipedia/de/Romeo_und_Julia",
+                    "creator": "/user/wikipedia_intl"
+                },
+                {
+                    "text": "/wikipedia/id/Romeo_dan_juliet",
+                    "lang": "",
+                    "value": "/wikipedia/id/Romeo_dan_juliet",
+                    "creator": "/user/wikirecon_bot"
+                },
+                {
+                    "text": "/wikipedia/no/Romeo_og_Julie",
+                    "lang": "",
+                    "value": "/wikipedia/no/Romeo_og_Julie",
+                    "creator": "/user/wikirecon_bot"
+                }
+            ],
+            "count": 270
+        },
+        "/type/object/mid": {
+            "valuetype": "key",
+            "values": [
+                {
+                    "text": "/m/06fsr",
+                    "lang": "",
+                    "value": "/m/06fsr"
+                }
+            ],
+            "count": 1
+        },
+        "/type/object/name": {
+            "valuetype": "string",
+            "values": [
+                {
+                    "text": "Romeo and Juliet",
+                    "lang": "en",
+                    "value": "Romeo and Juliet",
+                    "creator": "/user/mwcl_wikipedia_en"
+                }
+            ],
+            "count": 43
+        },
+        "/type/object/type": {
+            "valuetype": "object",
+            "values": [
+                {
+                    "text": "Adapted Work",
+                    "lang": "en",
+                    "id": "/media_common/adapted_work",
+                    "creator": "/user/robert",
+                    "timestamp": "2007-02-22T08:04:25.000Z"
+                },
+                {
+                    "text": "Written Work",
+                    "lang": "en",
+                    "id": "/book/written_work",
+                    "creator": "/user/gardening_bot",
+                    "timestamp": "2008-05-27T21:44:32.011Z"
+                },
+                {
+                    "text": "Topic",
+                    "lang": "en",
+                    "id": "/base/williamshakespeare/topic",
+                    "creator": "/user/jon",
+                    "timestamp": "2009-03-10T18:25:04.000Z"
+                },
+                {
+                    "text": "Quotation Source",
+                    "lang": "en",
+                    "id": "/media_common/quotation_source",
+                    "creator": "/user/jon",
+                    "timestamp": "2009-03-10T23:30:29.001Z"
+                },
+                {
+                    "text": "Topic",
+                    "lang": "en",
+                    "id": "/base/renrest/topic",
+                    "creator": "/user/ndunham",
+                    "timestamp": "2009-03-20T06:48:27.000Z"
+                },
+                {
+                    "text": "Topic",
+                    "lang": "en",
+                    "id": "/user/narphorium/people/topic",
+                    "creator": "/user/narphorium",
+                    "timestamp": "2009-07-20T22:28:38.001Z"
+                },
+                {
+                    "text": "Notable Couple",
+                    "lang": "en",
+                    "id": "/user/narphorium/people/notable_couple",
+                    "creator": "/user/narphorium",
+                    "timestamp": "2009-07-20T22:28:38.001Z"
+                },
+                {
+                    "text": "Book",
+                    "lang": "en",
+                    "id": "/book/book",
+                    "creator": "/user/merge_bot",
+                    "timestamp": "2009-07-26T09:45:58.000Z"
+                },
+                {
+                    "text": "Ontology Instance",
+                    "lang": "en",
+                    "id": "/base/ontologies/ontology_instance",
+                    "creator": "/user/spencermountain",
+                    "timestamp": "2010-01-03T10:40:35.000Z"
+                },
+                {
+                    "text": "Adaptation",
+                    "lang": "en",
+                    "id": "/media_common/adaptation",
+                    "creator": "/user/hailey2009",
+                    "timestamp": "2010-12-11T19:35:26.000Z"
+                },
+                {
+                    "text": "Play",
+                    "lang": "en",
+                    "id": "/theater/play",
+                    "creator": "/user/jon",
+                    "timestamp": "2012-01-07T02:41:59.002Z"
+                },
+                {
+                    "text": "Film subject",
+                    "lang": "en",
+                    "id": "/film/film_subject",
+                    "creator": "/user/gmackenz",
+                    "timestamp": "2012-04-09T20:39:59.000Z"
+                },
+                {
+                    "text": "Topic",
+                    "lang": "en",
+                    "id": "/base/allthingsnewyork/topic",
+                    "creator": "/user/tagasauris",
+                    "timestamp": "2012-06-05T16:31:35.000Z"
+                },
+                {
+                    "text": "Processed with Review Queue",
+                    "lang": "en",
+                    "id": "/user/alust/default_domain/processed_with_review_queue",
+                    "creator": "/user/merge_bot",
+                    "timestamp": "2013-03-15T06:12:04.000Z"
+                },
+                {
+                    "text": "TV subject",
+                    "lang": "en",
+                    "id": "/tv/tv_subject",
+                    "creator": "/user/romertolentino",
+                    "timestamp": "2013-07-02T02:03:12.000Z"
+                },
+                {
+                    "text": "Translated Work",
+                    "lang": "en",
+                    "id": "/book/translated_work",
+                    "creator": "/user/fpmdisalvia",
+                    "timestamp": "2013-07-03T15:19:22.000Z"
+                },
+                {
+                    "text": "Published Work",
+                    "lang": "en",
+                    "id": "/book/published_work",
+                    "creator": "/user/turtlewax_bot",
+                    "timestamp": "2013-08-08T03:31:51.000Z"
+                },
+                {
+                    "text": "Topic",
+                    "lang": "en",
+                    "id": "/common/topic",
+                    "creator": "/user/metaweb"
+                },
+                {
+                    "text": "Inanimate",
+                    "lang": "en",
+                    "id": "/base/type_ontology/inanimate",
+                    "creator": "/user/merge_bot"
+                },
+                {
+                    "text": "Abstract",
+                    "lang": "en",
+                    "id": "/base/type_ontology/abstract",
+                    "creator": "/user/merge_bot"
+                },
+                {
+                    "text": "Non-Agent",
+                    "lang": "en",
+                    "id": "/base/type_ontology/non_agent",
+                    "creator": "/user/merge_bot"
+                }
+            ],
+            "count": 21
+        },
+        "/type/object/guid": {
+            "valuetype": "string",
+            "values": [
+                {
+                    "text": "#9202a8c04000641f8000000000033717",
+                    "lang": "",
+                    "value": "#9202a8c04000641f8000000000033717"
+                }
+            ],
+            "count": 1
+        },
+        "/type/object/creator": {
+            "valuetype": "object",
+            "values": [
+                {
+                    "text": "ashryanfb",
+                    "lang": "",
+                    "id": "/user/ashryanfb",
+                    "timestamp": "2012-09-02T09:30:51.001Z"
+                }
+            ],
+            "count": 1
+        },
+        "/type/object/timestamp": {
+            "valuetype": "datetime",
+            "values": [
+                {
+                    "text": "2012-09-02T09:30:51.001Z",
+                    "lang": "en",
+                    "value": "2012-09-02T09:30:51.001Z"
+                }
+            ],
+            "count": 1
+        },
+        "/type/object/permission": {
+            "valuetype": "object",
+            "values": [
+                {
+                    "text": "/boot/all_permission",
+                    "lang": "",
+                    "id": "/boot/all_permission"
+                }
+            ],
+            "count": 1
+        }
+    }
+}
