@@ -27,9 +27,14 @@ c) Usage
 
 d) Design
 
-This project consists of two parts:
-1. Show Infobox
-2. Answer questions
+    This project consists of two parts:
+
+        run.sh is the script to invoke the program.
+        main.py is the entry of the program.
+        Search.py contains the part for interacting with freebase API.
+        Analyser.py analyses the result for part1.
+        Answer.py analyses the result for part2.
+        Display.py is the part for displaying the data in table format.
 
 
 
