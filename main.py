@@ -39,8 +39,10 @@ def question(se, question):
     question(search_engine, question)
     The function to generate result for a question
     """
+    print question
+    q = ' '.join(question)
     # Analyze the question in the query first
-    term = Answer.get_term(question)
+    term = Answer.get_term(q)
     author_query = Answer.get_query(term, 'author')
     business_person_query = Answer.get_query(term, 'business_person')
     author_result = se.get_mql_result(author_query)

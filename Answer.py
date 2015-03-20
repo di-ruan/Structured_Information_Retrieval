@@ -3,7 +3,9 @@ import Search
 
 
 def get_term(question):
-    term = question[12:-1]
+    term = question[12:]
+    if term.endswith('?'):
+        return term[:-1]
     return term
 
 
