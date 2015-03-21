@@ -58,7 +58,7 @@ d) Design
         Analyser.py - computes the result for part1. It use to get the desired values from the result returned
         by Freebase API. The list of mapping can be found in part f). The information is stored in a list of
         list according to the requirement of display. In order to facilitate the display, we divided the type
-        of information into 4 types.
+        of information into 4 types. The details can be found in the comments for the code.
 
         Answer.py - computes the result for part2. Since we are only interested in the AnswerType such as Author
         and BusinessPerson. We can create queries for those two type and get the result from Freebase MQL API
@@ -67,7 +67,6 @@ d) Design
     (4) Information Display
 
         Display.py - is for displaying the data in table format.
-
 
 
 e)

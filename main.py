@@ -3,6 +3,7 @@ import Search
 import Analyser
 import Display
 import Answer
+from operator import itemgetter
 
 
 # implement the logic to create the infobox. First, we need to get mi from Freebase Search API. And then iterate
@@ -64,8 +65,9 @@ def question(se, question):
     author_answer = Answer.get_answer(author_result, 'author')
     business_person_answer = Answer.get_answer(business_person_result, 'business_person')
     author_answer.extend(business_person_answer)
-
-    Display.draw_answer(author_answer, q)
+    if author_answer:
+        author_answer = sorted(author_answer, key=itemgetter(0))
+        Display.draw_answer(author_answer, q + '?')
 
 
 # entry of the program
