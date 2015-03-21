@@ -34,7 +34,7 @@ def build_infobox(topic, title):
     if entities:
         info_list.insert(0, [1, str(table_title) + ' (' + str(entities[:-2]) + ')'])
     for li in info_list:
-        if li[0] == 2 and not li[2]:
+        if li[0] == 2 and (li[2] is None or li[2] == ''):
             info_list.remove(li)
     return info_list
 
@@ -78,9 +78,15 @@ def get_person(topic):
         info_list.append([2, "Name", get(topic, ["/type/object/name", "values", 0, "text"])])
     info_list.append([2, "Birthday", get(topic, ["/people/person/date_of_birth", "values", 0, "text"])])
     info_list.append([2, "Place of Birth", get(topic, ["/people/person/place_of_birth", "values", 0, "text"])])
-    info_list.append([2, "Date of Death", get(topic, ["/people/deceased_person/date_of_death", "values", 0, "text"])])
-    info_list.append([2, "Place of Death", get(topic, ["/people/deceased_person/place_of_death", "values", 0, "text"])])
-    info_list.append([2, "Cause of Death", get(topic, ["/people/deceased_person/cause_of_death", "values", 0, "text"])])
+    if get(topic, ["/people/deceased_person/date_of_death", "values", 0, "text"]):
+        info_list.append([2, "Date of Death", get(topic, ["/people/deceased_person/date_of_death",
+                                                          "values", 0, "text"])])
+    if get(topic, ["/people/deceased_person/place_of_death", "values", 0, "text"]):
+        info_list.append([2, "Place of Death", get(topic, ["/people/deceased_person/place_of_death",
+                                                           "values", 0, "text"])])
+    if get(topic, ["/people/deceased_person/cause_of_death", "values", 0, "text"]):
+        info_list.append([2, "Cause of Death", get(topic, ["/people/deceased_person/cause_of_death",
+                                                           "values", 0, "text"])])
     info_list.append([2, "Descriptions", get(topic, ["/common/topic/description", "values", 0, "value"])])
     if get(topic, ["/people/person/sibling_s"]):
         sibling_list = []
