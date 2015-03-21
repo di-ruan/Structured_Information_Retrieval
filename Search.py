@@ -15,6 +15,7 @@ class Search:
     def __init__(self, api_key):
         self.api_key = api_key
 
+    # call Freebase Search API and return the result
     def get_search_result(self, query):
         """
         get_search_result(query)
@@ -30,6 +31,7 @@ class Search:
             return None
         return response['result']
 
+    # call Freebase Topic API and return the result
     def get_topic_result(self, topic_id):
         """
         get_topic_result(topic_id)
@@ -44,6 +46,7 @@ class Search:
             return None
         return topic['property']
 
+    # call Freebase MQL API and return the result
     def get_mql_result(self, query):
         """
         get_mql_result(query)

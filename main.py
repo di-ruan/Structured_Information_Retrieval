@@ -5,6 +5,8 @@ import Display
 import Answer
 
 
+# implement the logic to create the infobox. First, we need to get mi from Freebase Search API. And then iterate
+# each mi to get the first one that contains satisfies our requirement and then print the infobox.
 def infobox(se, query):
     """
     infobox(search_engine, query)
@@ -39,6 +41,8 @@ def infobox(se, query):
         Display.draw_infobox(info_list)
 
 
+# implement the logic to create the answer table. Since we are only interested in the AnswerType such as Author
+# and BusinessPerson. We can create queries for those two type and get the result.
 def question(se, question):
     """
     question(search_engine, question)
@@ -64,7 +68,7 @@ def question(se, question):
     Display.draw_answer(author_answer, q)
 
 
-
+# entry of the program
 def main(argv):
     """
     main(argv)

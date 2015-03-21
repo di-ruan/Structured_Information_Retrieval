@@ -1,7 +1,7 @@
 import json
-import Search
 
 
+# get the term for query from the question asked by user
 def get_term(question):
     term = question[12:]
     if term.endswith('?'):
@@ -9,6 +9,7 @@ def get_term(question):
     return term
 
 
+# form the query for Freebase MQL API
 def get_query(term, type):
     if type == 'author':
         entity = '/book/author/works_written'
@@ -27,10 +28,9 @@ def get_query(term, type):
     }
     query = json.dumps([dic])
     return query
-    #se = Search.get_engine('AIzaSyBgfj3L8cqcu6OEd21JkQcHhBQJA6jUOXo')
-    #print se.get_mql_result(query)
 
 
+# analyse the result from the Freebase MQL API and get desired information for the answer table
 def get_answer(results, type):
     answer = []
     if type == 'author':
@@ -49,4 +49,3 @@ def get_answer(results, type):
             answer.append([name, 'Business Person', org_list])
     return answer
 
-#get_query('microsoft', 'business_person')
