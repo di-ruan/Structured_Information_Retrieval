@@ -111,6 +111,8 @@ def main(argv):
     elif source == 'file':
         qfile = open(argv[3], 'r')
         for line in qfile:
+            if line.endswith('\n'):
+                line = line[0:-1]
             if mode == 'question':
                 question(se, line)
             else:
