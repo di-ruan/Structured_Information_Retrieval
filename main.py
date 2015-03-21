@@ -13,8 +13,7 @@ def infobox(se, query):
     infobox(search_engine, query)
     The function to generate infobox for the query
     """
-    q = ' '.join(query)
-    json = se.get_search_result(q)
+    json = se.get_search_result(query)
     if json is None:
         print 'Error in search'
         return
@@ -30,14 +29,14 @@ def infobox(se, query):
         # Parse and analyze the topic
         # Get out of the loop if the topic is valid
         # Otherwise, continue to check the next topic
-        title = ' '.join(query).title()
+        title = query.title()
         info_list = Analyser.build_infobox(topic, title)
         if len(info_list) > 0:  # Nonempty result
             # print info_list
             break
 
     if info_list is None:
-        print 'There is no result for \'' + q + '\'!'
+        print 'There is no result for \'' + query + '\'!'
     else:
         Display.draw_infobox(info_list)
 
@@ -49,9 +48,8 @@ def question(se, question):
     question(search_engine, question)
     The function to generate result for a question
     """
-    q = ' '.join(question)
     # Analyze the question in the query first
-    term = Answer.get_term(q)
+    term = Answer.get_term(question)
     author_query = Answer.get_query(term, 'author')
     business_person_query = Answer.get_query(term, 'business_person')
     author_result = se.get_mql_result(author_query)
@@ -67,7 +65,9 @@ def question(se, question):
     author_answer.extend(business_person_answer)
     if author_answer:
         author_answer = sorted(author_answer, key=itemgetter(0))
-        Display.draw_answer(author_answer, q + '?')
+        if not question.endswith('?'):
+            question = question + '?'
+        Display.draw_answer(author_answer, question)
 
 
 # entry of the program
@@ -84,23 +84,51 @@ def main(argv):
     else:
         api_key = argv[0]
 
-    # Mode: infobox or question
-    if argv[1] == 'infobox' or argv[1] == 'question':
-        mode = argv[1]
+    # Source: normal, file, or interact
+    if argv[1] == 'normal' or argv[1] == 'file' or argv[1] == 'interact':
+        source = argv[1]
     else:
-        print 'Type should be either \"infobox\" or \"question\"'
+        print 'Source should be \"normal\", \"file\", or \"interact\"'
         return
 
-    # Query
-    query = argv[2:]
+    # Mode: infobox or question
+    if source != 'interact':
+        if argv[2] == 'infobox' or argv[2] == 'question':
+            mode = argv[2]
+        else:
+            print 'Type should be either \"infobox\" or \"question\"'
+            return
 
     # Get the search engine object with the given API key
     se = Search.get_engine(api_key)
 
-    if mode == 'question':
-        question(se, query)
-    else:
-        infobox(se, query)
+    if source == 'normal':
+        query = ' '.join(argv[3:])
+        if mode == 'question':
+            question(se, query)
+        else:
+            infobox(se, query)
+    elif source == 'file':
+        qfile = open(argv[3], 'r')
+        for line in qfile:
+            if mode == 'question':
+                question(se, line)
+            else:
+                infobox(se, line)
+    else:   # Interact
+        query = ''
+        while True:
+            try:
+                query = raw_input('Anything curious? ')
+                print 'Searching...'
+                if query.endswith('?'):
+                    question(se, query)
+                else:
+                    infobox(se, query)
+            except KeyboardInterrupt:
+                print 'Byt~'
+                break
+
 
 if __name__ == "__main__":
     main(sys.argv[1:])
