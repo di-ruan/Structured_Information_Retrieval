@@ -74,7 +74,12 @@ e)
     requests per second per user: 10
 
 
-f) Mapping from Freebase properties to the entities of interest
+f) Additional Information
+
+1. In order to be considered as Author, BusinessPerson or Actor, it must be a Person.
+
+
+2. Mapping from Freebase properties to the entities of interest
 
 Person
         Name                        "/type/object/name"

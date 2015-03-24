@@ -9,6 +9,7 @@ def build_infobox(topic, title):
     entity_list = []
     global table_title
     table_title = title
+    is_person = False
     for p in topic:
         entity_type = get_prefix(p)
         entity_list.append(entity_type)
@@ -16,19 +17,21 @@ def build_infobox(topic, title):
     if '/people/person' in entity_list:
         info_list.extend(get_person(topic))
         entities += 'PERSON, '
+        is_person = True
     if '/sports/sports_league' in entity_list:
         info_list.extend(get_league(topic))
         entities += 'LEAGUE, '
     if ('/sports/professional_sports_team' in entity_list) or ('/sports/sports_team' in entity_list):
         info_list.extend(get_team(topic))
         entities += 'SPORTS TEAM, '
-    if '/book/author' in entity_list:
+    if '/book/author' in entity_list and is_person:
         info_list.extend(get_author(topic))
         entities += 'AUTHOR, '
-    if ('/film/actor' in entity_list) or ('/tv/tv_actor' in entity_list):
+    if ('/film/actor' in entity_list) or ('/tv/tv_actor' in entity_list) and is_person:
         info_list.extend(get_actor(topic))
         entities += 'ACTOR, '
-    if ('/organization/organization_founder' in entity_list) or ('/business/board_member' in entity_list):
+    if (('/organization/organization_founder' in entity_list) or ('/business/board_member' in entity_list)) \
+            and is_person:
         info_list.extend(get_business(topic))
         entities += 'BUSINESS_PERSON, '
     if entities:
