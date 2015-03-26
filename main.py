@@ -72,6 +72,8 @@ def question(se, question):
         if not question.endswith('?'):
             question = question + '?'
         Display.draw_answer(author_answer, question)
+    else:
+        print 'There is no result for \'' + question + '\'!'
 
 
 # entry of the program
