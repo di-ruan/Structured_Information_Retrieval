@@ -35,10 +35,10 @@ def infobox(se, query):
             # print info_list
             break
 
-    if info_list is None:
-        print 'There is no result for \'' + query + '\'!'
-    else:
+    if info_list is not None and len(info_list) > 0:
         Display.draw_infobox(info_list)
+    else:
+        print 'There is no result for \'' + query + '\'!'
 
 
 # implement the logic to create the answer table. Since we are only interested in the AnswerType such as Author
@@ -67,7 +67,7 @@ def question(se, question):
     author_answer = Answer.get_answer(author_result, 'author')
     business_person_answer = Answer.get_answer(business_person_result, 'business_person')
     author_answer.extend(business_person_answer)
-    if author_answer:
+    if author_answer is not None and len(author_answer) > 0:
         author_answer = sorted(author_answer, key=itemgetter(0))
         if not question.endswith('?'):
             question = question + '?'
