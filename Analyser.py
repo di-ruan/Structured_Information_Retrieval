@@ -35,7 +35,7 @@ def build_infobox(topic, title):
         info_list.extend(get_business(topic))
         entities += 'BUSINESS_PERSON, '
     if entities:
-        info_list.insert(0, [1, str(table_title) + ' (' + str(entities[:-2]) + ')'])
+        info_list.insert(0, [1, str(table_title.encode('ascii', 'ignore')) + ' (' + str(entities[:-2]) + ')'])
     for li in info_list:
         if li[0] == 2 and (li[2] is None or li[2] == ''):
             info_list.remove(li)
