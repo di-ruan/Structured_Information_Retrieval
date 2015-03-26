@@ -42,11 +42,13 @@ def build_infobox(topic, title):
     return info_list
 
 
+# get the first two levels of the path
 def get_prefix(entity_type):
     res = re.search('/[a-z_]+/[a-z_]+', entity_type)
     return res.group(0)
 
 
+# get the value of the xml entity following the paths
 def get(entity, paths):
     if entity is not None:
         for path in paths:
@@ -73,6 +75,7 @@ Person
 """
 
 
+# get the information required for Person
 def get_person(topic):
     info_list = list()
     if get(topic, ["/type/object/name", "values", 0, "text"]):
@@ -122,6 +125,7 @@ Author
 """
 
 
+# get the information required for Author
 def get_author(topic):
     info_list = list()
     if get(topic, ["/book/author/works_written"]):
@@ -152,6 +156,7 @@ Actor
 """
 
 
+# get the information required for Actor
 def get_actor(topic):
     info_list = []
     character_list = []
@@ -171,6 +176,7 @@ BusinessPerson
 """
 
 
+# get the information required for Business Person
 def get_business(topic):
     info_list = list()
     if get(topic, ["/organization/organization_founder/organizations_founded"]):
@@ -237,6 +243,7 @@ League
 """
 
 
+# get the information required for League
 def get_league(topic):
     info_list = list()
     if get(topic, ["/type/object/name", "values", 0, "text"]):
@@ -270,6 +277,7 @@ SportsTeam
 """
 
 
+# get the information required for Sport team
 def get_team(topic):
     info_list = list()
     if get(topic, ["/type/object/name", "values", 0, "text"]):
