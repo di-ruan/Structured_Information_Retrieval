@@ -52,6 +52,8 @@ def question(se, question):
     term = Answer.get_term(question)
     author_query = Answer.get_query(term, 'author')
     business_person_query = Answer.get_query(term, 'business_person')
+
+    # Queries for author and business person
     author_result = se.get_mql_result(author_query)
     if author_result is None:
         print 'Error in author search'
@@ -60,6 +62,8 @@ def question(se, question):
     if business_person_result is None:
         print 'Error in business person search'
         return
+
+    # Extract and format the information
     author_answer = Answer.get_answer(author_result, 'author')
     business_person_answer = Answer.get_answer(business_person_result, 'business_person')
     author_answer.extend(business_person_answer)
@@ -128,7 +132,7 @@ def main(argv):
                 else:
                     infobox(se, query)
             except KeyboardInterrupt:
-                print 'Byt~'
+                print 'Bye~'
                 break
 
 
