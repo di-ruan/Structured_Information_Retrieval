@@ -38,6 +38,11 @@ c) Usage
     In order to display the answer properly, please set the terminal width >= 110 and "Scrollback" to be "Unlimited"
     under the tab "Scrolling" in the Terminal Profile Preferences.
 
+    For the third interactive option, the method we use to distinguish the queries for infobox or question is
+    to check whether the query is followed by a question mark or not. If the query is followed by a question mark,
+    then we take the query as a question query and presume the format of the query is "Who created XXX?"; otherwise,
+    the query is considered as for infobox.
+
 
 d) Design
 
