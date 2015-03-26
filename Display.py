@@ -77,7 +77,7 @@ def draw_title(title):
     l = W - len(V+WS)*2
     text = textwrap.wrap(title[0], l)
     for t in text:
-        print V + WS + t.center(l) + WS + V
+        print V + WS + t.encode('ascii', 'ignore').center(l) + WS + V
     print N + L*(W_LEFT-len(N)*2) + N + L*(W_BODY-len(N)) + N
 
 
@@ -98,7 +98,7 @@ def draw_items(item):
     padding_space(topic, h)
     padding_space(content, h)
     for i in range(h):
-        print V + WS + topic[i].ljust(lt) + WS + V + WS + content[i].ljust(lb) + WS + V
+        print V + WS + topic[i].encode('ascii', 'ignore').ljust(lt) + WS + V + WS + content[i].encode('ascii', 'ignore').ljust(lb) + WS + V
     print N + L*(W_LEFT-len(N)*2) + N + L*(W_BODY-len(N)) + N
 
 
@@ -126,13 +126,13 @@ def draw_table(item):
         if i < len(col):
             s = WS + col[i][0].ljust(lb_1st) + WS + V
             for c in col[i][1:]:
-                s = s + WS + c.ljust(lb) + WS + V
-            print V + WS + topic[i].ljust(lt) + WS + V + s
+                s = s + WS + c.encode('ascii', 'ignore').ljust(lb) + WS + V
+            print V + WS + topic[i].encode('ascii', 'ignore').ljust(lt) + WS + V + s
         elif i > len(col):
             s = WS + table[i-len(col)-1][0].ljust(lb_1st) + WS + V
             for c in table[i-len(col)-1][1:]:
-                s = s + WS + c.ljust(lb) + WS + V
-            print V + WS + topic[i].ljust(lt) + WS + V + s
+                s = s + WS + c.encode('ascii', 'ignore').ljust(lb) + WS + V
+            print V + WS + topic[i].encode('ascii', 'ignore').ljust(lt) + WS + V + s
         else:
             s = L*(lb_1st+2) + N
             for i in range(1, col_num):
@@ -174,11 +174,11 @@ def draw_answer_table(item):
     padding_space(atype, len(plist))
     h = 2 + len(plist)
     padding_space(name, h)
-    print V + WS + name[0].ljust(ln) + WS + V + WS + 'As'.ljust(lt) + WS + V + WS + 'Creation'.ljust(ll) + WS + V
-    print V + WS + name[1].ljust(ln) + WS + N + L*(W_TYPE-len(N)) + N + L*(W_LIST-len(N)) + N
+    print V + WS + name[0].encode('ascii', 'ignore').ljust(ln) + WS + V + WS + 'As'.ljust(lt) + WS + V + WS + 'Creation'.ljust(ll) + WS + V
+    print V + WS + name[1].encode('ascii', 'ignore').ljust(ln) + WS + N + L*(W_TYPE-len(N)) + N + L*(W_LIST-len(N)) + N
     for i in range(2, h):
         j = i - 2
-        print V + WS + name[i].ljust(ln) + WS + V + WS + atype[j].ljust(lt) + WS + V + WS + plist[j][0].ljust(ll) + WS + V
+        print V + WS + name[i].encode('ascii', 'ignore').ljust(ln) + WS + V + WS + atype[j].encode('ascii', 'ignore').ljust(lt) + WS + V + WS + plist[j][0].encode('ascii', 'ignore').ljust(ll) + WS + V
     print N + L*(W_NAME-len(N)*2) + N + L*(W_TYPE-len(N)) + N + L*(W_LIST-len(N)) + N
 
 
@@ -187,7 +187,7 @@ def draw_answer(answer_list, question):
     l = W - len(V+WS)*2
     text = textwrap.wrap(question, l)
     for t in text:
-        print V + WS + t.center(l) + WS + V
+        print V + WS + t.encode('ascii', 'ignore').center(l) + WS + V
     print N + L*(W_NAME-len(N)*2) + N + L*(W_TYPE-len(N)) + N + L*(W_LIST-len(N)) + N
     for item in answer_list:
         draw_answer_table(item)
