@@ -35,7 +35,8 @@ c) Usage
     2.  ./run.sh -key <Freebase API key> -f <files of queries> -t <infobox|question>
     3.  ./run.sh -key <Freebase API key>
 
-    In order to display the infobox properly, the recommended terminal width is >= 110
+    In order to display the answer properly, please set the terminal width >= 110 and "Scrollback" to be "Unlimited"
+    under the tab "Scrolling" in the Terminal Profile Preferences.
 
 
 d) Design
